@@ -1,25 +1,43 @@
-# Mude de node:18-alpine para node:20-alpine
-FROM node:20-alpine AS build
+name: Frontend CI/CD - React
 
-WORKDIR /app
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/frontend-ci.yml'
 
-# Copia arquivos de dependência
-COPY package.json package-lock.json* ./
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./frontend
 
-# IMPORTANTE: Remova package-lock.json e node_modules virtualmente
-# e use npm install em vez de npm ci
-RUN rm -f package-lock.json && npm install
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-# Copia o código fonte
-COPY . .
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-# Força a reconstrução dos bindings nativos
-RUN npm rebuild
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-# Build da aplicação
-RUN npm run build
+      - name: Extract metadata
+        id: meta
+        run: |
+          echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
 
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+      - name: Build and push frontend image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./frontend
+          file: ./frontend/Dockerfile
+          push: true
+          tags: |
+            ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKERHUB_PROJECT_NAME }}-frontend:latest
+            ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKERHUB_PROJECT_NAME }}-frontend:${{ steps.meta.outputs.SHORT_SHA }}
