@@ -22,14 +22,13 @@ export default function App() {
           </ProtectedRoute>
         }
       >
-        <Route path="/" element={<DashboardPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />        
         <Route path="/conexoes-api" element={<ApiConnectionsPage />} />
         <Route path="/crm" element={<CRMPage />} />
         <Route path="/agents" element={<AgentsPage />} />
         <Route path="/prospeccao" element={<ProspeccaoPage />} />
       </Route>
 
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+      <Route path="*" element={<Navigate to="/login" replace />} />    </Routes>
   );
 }

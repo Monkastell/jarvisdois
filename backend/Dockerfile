@@ -5,13 +5,13 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copia apenas o requirements primeiro (para cache de camadas)
-COPY requirements.txt .
+COPY backend/requirements.txt /app/requirements.txt
 
 # Instala as dependências
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
 # Copia o resto do código
-COPY . .
+COPY backend /app
 
 # Expõe a porta que o Uvicorn vai usar
 EXPOSE 8000
