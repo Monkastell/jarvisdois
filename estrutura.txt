@@ -2,6 +2,10 @@ github-teste-jarvis
 RUN = docker login -u monkastel - (tem um $ na frente se der erro)
 pass prompt = dckr_pat_pq7ko9jmq0xmTO84sw0Qiji0x9M
 
+git remote add origin https://github.com/Monkastell/ConsigBrain.git
+git branch -M main
+git push -u origin main
+
 INÍCIO DE CONTINUIDADE — JARVISDOIS
 
 Antes de qualquer resposta técnica:
@@ -55,7 +59,14 @@ ESTADO ATUAL DO PROJETO
 - central de agentes backend já existe
 - agent builder schema já existe
 - dispatcher de eventos de agentes já existe
+- ProspeccaoPage já existe
+- rota de prospecção já existe
+- whatsapp_disparo_service já existe
 - Jarvis segue sendo construído primeiro por método e eventos, sem depender de Gemini
+- AirMoreModal está inutilizado
+- o AirMore correto do JarvisDois fica em backend/services/sms/airmore_service.py
+- o bridge legado/local do backend fica em backend/services/servidor.py e ainda precisa ser tratado com cuidado
+- a lateral direita do AppLayout carrega instâncias ativas e precisa usar o mesmo fluxo funcional da Evolution do resto do sistema
 
 ESTRUTURA ATUAL DO PROJETO
 
@@ -67,7 +78,7 @@ C:.
 |
 +---backend
 |   |   .env = variáveis de ambiente do backend | função = guardar chaves, URLs e configs do servidor
-|   |   main.py = ponto de entrada do FastAPI | função = carregar ambiente, aplicar CORS, registrar rotas principais
+|   |   main.py = ponto de entrada do FastAPI | função = carregar ambiente | aplicar CORS | registrar rotas principais | inicializar lifespan/startup do backend
 |   |   requirements.txt = dependências Python do backend | função = instalar bibliotecas do servidor
 |   |
 |   +---data
@@ -76,17 +87,17 @@ C:.
 |   +---routes
 |   |   |   evolution_routes.py = camada HTTP da Evolution | função = listar instâncias | consultar status | enviar mensagem
 |   |   |   integration_connections_routes.py = camada HTTP das conexões | função = expor estado e configuração das integrações
-|   |   |   webhook_routes.py = entrada de webhooks externos | função = transformar eventos externos em eventos internos do Jarvis
+|   |   |   webhook_routes.py = entrada de webhooks externos | função = transformar eventos externos em eventos internos do Jarvis | processar mensagens recebidas do WhatsApp | marcar resposta em disparos
 |   |   |   agents_routes.py = API da central de agentes | função = listar agentes | criar agente | editar agente | alterar status | executar agente | expor builder schema
 |   |   |   ai_routes.py = rotas auxiliares de IA | função = healthcheck e testes da camada de IA
 |   |   |   crm_routes.py = camada HTTP do CRM para o Jarvis | função = receber evento do CRM | acionar fluxo do Jarvis
-|   |   |   prospeccao_routes.py
+|   |   |   prospeccao_routes.py = API da prospecção | função = listar disparos de WhatsApp | obter disparo | criar disparo | iniciar | pausar | retomar | excluir
 |   |
 |   +---services
 |   |   |   historico_disparos.json = histórico local de disparos | função = armazenar execuções de campanhas
 |   |   |   config_store.py = persistência/configuração local | função = salvar e recuperar configs auxiliares
 |   |   |   relatorios_sms.json = relatórios locais de SMS | função = armazenar métricas simples de SMS
-|   |   |   servidor.py = arquivo auxiliar legado/local | função = revisar depois para decidir permanência ou remoção
+|   |   |   servidor.py = bridge local/legado do backend | função = apoiar fluxo local auxiliar | revisar depois para decidir permanência ou remoção
 |   |   |   templates_sms.json = base local de templates SMS | função = persistir modelos de mensagem
 |   |   |
 |   |   \---ai
@@ -96,16 +107,16 @@ C:.
 |   |   |   |   evolution_service.py = serviço real da Evolution API | função = montar headers | buscar instâncias | normalizar retorno | consultar status | enviar mensagem
 |   |   |
 |   |   \---jarvis
-|   |   |   |   jarvis_crm_service.py = ponte entre CRM e Jarvis | função = processar evento do CRM | registrar evento | chamar decisão | devolver próxima ação
+|   |   |   |   jarvis_crm_service.py = ponte entre CRM e Jarvis | função = processar evento do CRM | registrar evento | chamar decisão | devolver próxima ação | registrar resposta recebida do WhatsApp no ecossistema do Jarvis
 |   |   |   |   jarvis_decision_service.py = motor de decisão do Jarvis | função = analisar status do lead | temperatura | tags | override | sugerir próxima ação/agente
-|   |   |   |   jarvis_event_service.py = barramento e histórico interno | função = registrar evento | guardar origem | ator | metadados | rastrear fluxo
+|   |   |   |   jarvis_event_service.py = barramento e histórico interno | função = registrar evento | guardar origem | ator | metadados | rastrear fluxo | opcionalmente despachar evento
 |   |   |
 |   |   \---sms
-|   |   |   |   airmore_service.py = serviço real do AirMore | função = conectar celular | consultar status | enviar SMS
+|   |   |   |   airmore_service.py = serviço real do AirMore | função = conectar celular | solicitar autorização | consultar status | enviar SMS
 |   |   |
 |   |   \---agents
 |   |   |   |   agent_runtime_service.py = motor de execução do agente | função = carregar agente | montar contexto | executar tools | registrar eventos | resolver handoff
-|   |   |   |   agent_registry_service.py = catálogo/persistência de agentes | função = cadastrar | listar | buscar | atualizar | alterar status
+|   |   |   |   agent_registry_service.py = catálogo/persistência de agentes | função = cadastrar | listar | buscar | atualizar | alterar status | normalizar agente
 |   |   |   |   agent_tools_service.py = caixa de ferramentas dos agentes | função = send_whatsapp | send_sms | add_tag | append_note | move_lead | handoff_agent | read_sheet
 |   |   |   |   agent_context_service.py = montagem de contexto do agente | função = consolidar evento | lead | canal | memória | integrações
 |   |   |   |   agent_handoff_service.py = resolução de handoff | função = avaliar regras e decidir transferência entre agentes
@@ -113,7 +124,7 @@ C:.
 |   |   |   |   agent_event_dispatcher.py = dispatcher de eventos para agentes | função = localizar agentes ouvintes | disparar runtime | registrar erros/resultados
 |   |   |
 |   |   \---prospeccao
-|   |   |   |   whatsapp_disparo_service.py
+|   |   |   |   whatsapp_disparo_service.py = motor backend do disparo WhatsApp | função = normalizar telefones | parsear contatos | renderizar template | criar disparo | listar disparos | buscar disparo | iniciar | pausar | retomar | excluir | marcar contatos que responderam | retomar disparos em execução no startup
 |   |   |
 |   |
 +---frontend
@@ -127,8 +138,8 @@ C:.
 |   |   vite.config.js = configuração do Vite | função = build e servidor do frontend
 |   |
 |   \---src
-|       |   App.jsx = roteamento principal da aplicação | função = login | dashboard | conexões | CRM | agents page
-|       |   main.jsx = bootstrap do React | função = renderizar a aplicação
+|       |   App.jsx = roteamento principal da aplicação | função = login | dashboard | conexões | CRM | agents page | prospecção
+|       |   main.jsx = bootstrap do React | função = renderizar a aplicação | iniciar AuthProvider | ligar event bus do Jarvis | iniciar logging operacional
 |       |
 |       +---assets
 |       |       react.svg = asset padrão do template | função = imagem estática auxiliar
@@ -141,7 +152,7 @@ C:.
 |       |   |       LeadModal.jsx = modal detalhado do lead | função = editar dados pessoais | bancários | tags | observações | arquivos | compliance
 |       |   |
 |       |   \---layout
-|       |           AppLayout.jsx = layout geral autenticado | função = estruturar sidebar + conteúdo + painel lateral
+|       |           AppLayout.jsx = layout geral autenticado | função = estruturar sidebar + conteúdo + painel lateral | mostrar topbar operacional | exibir instâncias ativas na lateral direita
 |       |
 |       +---contexts
 |       |       AuthContext.jsx = contexto de autenticação | função = prover usuário e controle de login/logout
@@ -150,12 +161,12 @@ C:.
 |       |   \---jarvis
 |       |           eventBus.js = barramento local do frontend | função = emitir/escutar eventos visuais e operacionais
 |       |           eventTypes.js = catálogo de tipos de evento | função = padronizar nomes dos eventos
-|       |           jarvisLogger.js = logger do frontend | função = rastrear eventos e debug visual
+|       |           jarvisLogger.js = logger do frontend | função = rastrear eventos e debug visual | integrar com Firestore para logging operacional
 |       |
 |       +---features
 |       |   +---airmore
-|       |   |       AirMoreModal.jsx = modal da conexão AirMore | função = configurar e controlar conexão SMS
-|       |   |       airmoreService.js = ponte local do AirMore | função = chamadas do frontend para SMS
+|       |   |       AirMoreModal.jsx = modal legado do AirMore | função = inutilizado atualmente | retorna null
+|       |   |       airmoreService.js = ponte local do AirMore | função = consultar status | conectar | desconectar | listar templates | criar template | atualizar template | excluir template | enviar lote SMS | obter relatórios | obter histórico | normalizar telefones | montar filas | salvar listas no localStorage
 |       |   |
 |       |   +---docker
 |       |   |       DockerModal.jsx = modal auxiliar do Docker | função = suporte operacional de ambiente
@@ -169,7 +180,7 @@ C:.
 |       |   |           useEvolutionInstances.js = hook de instâncias | função = carregar e atualizar instâncias Evolution
 |       |   |
 |       |   \---whatsapp
-|       |           WhatsAppDisparoModal.jsx = modal de disparo WhatsApp | função = montar campanha/disparo com agente/instância/template
+|       |           WhatsAppDisparoModal.jsx = modal legado de disparo WhatsApp | função = atualmente desativado/inutilizado ou em transição | não deve ser usado como fonte principal da prospecção
 |       |
 |       +---pages
 |       |   +---agents
@@ -185,27 +196,27 @@ C:.
 |       |   |   |   DashboardPage.jsx = tela operacional principal | função = visão geral do sistema
 |       |   |   |
 |       |   |   \---layout
-|       |   |           MainSidebar.jsx = menu lateral principal | função = navegar entre dashboard | conexões | CRM | agentes
+|       |   |           MainSidebar.jsx = menu lateral principal | função = navegar entre dashboard | conexões | CRM | agentes | prospecção
 |       |   |           ProfilePanel.jsx = painel lateral de perfil | função = exibir usuário e atalhos auxiliares
 |       |   |
 |       |   +---integrations
 |       |   |       ApiConnectionsPage.jsx = página de conexões | função = exibir integrações e configurações
 |       |   |
-|       |   +---prospeccao  
-|       |   |   |   ProspeccaoPage.jsx
+|       |   +---prospeccao
+|       |   |   |   ProspeccaoPage.jsx = página operacional de prospecção | função = concentrar abas de WhatsApp e SMS | operar disparos fora de modais | integrar Evolution | integrar AirMore | vincular agentes às instâncias | gerenciar templates e listas
 |       |   |
 |       |
 |       +---services
-|       |   |   agents.js = ponte frontend -> backend da central de agentes | função = builder schema | listagem | criação | edição | status | execução | compatibilidade local legada
+|       |   |   agents.js = ponte frontend -> backend da central de agentes | função = builder schema | listagem | criação | edição | status | execução | compatibilidade local legada de configs
 |       |   |   evolution.js = ponte frontend -> backend da Evolution | função = listar instâncias | status | envio
 |       |   |   jarvisCrm.js = ponte frontend -> backend Jarvis CRM | função = enviar eventos do CRM ao backend
-|       |   |   prospeccao.js
+|       |   |   prospeccao.js = ponte frontend -> backend da prospecção | função = listar disparos WhatsApp | obter disparo | criar disparo | iniciar | pausar | retomar | excluir
 |       |   |
 |       |   +---firebase
 |       |   |       apiConnections.js = persistência/config de conexões | função = salvar e ler integrações no Firebase
 |       |   |       auth.js = autenticação Firebase | função = login/logout e estado do usuário
 |       |   |       config.js = configuração Firebase | função = inicializar SDK
-|       |   |       crmFirebase.js = persistência do CRM | função = normalizar lead | salvar/editar lead | colunas | arquivos | compliance
+|       |   |       crmFirebase.js = persistência do CRM | função = normalizar lead | salvar/editar lead | colunas | arquivos | compliance | criar lead no Firebase | notificar Jarvis após mudanças
 |       |   |       firestore.js = acesso ao Firestore | função = utilitários/base de banco
 |       |   |
 |       |   +---localBridge
@@ -215,18 +226,22 @@ C:.
 |       |           apiConnectionRuntime.js = runtime de conexões | função = executar lógica local de integração/conexão
 |       |
 |       \---styles
-|       |       global.css = estilos globais | função = base visual da aplicação
-|       |
-+---evolution
-|   |   docker-compose.yml
-|   |   .env    
+|               global.css = estilos globais | função = base visual da aplicação
 |
-
++---evolution
+|   |   docker-compose.yml = composição Docker da Evolution API | função = subir os serviços da Evolution
+|   |   .env = variáveis do ambiente da Evolution | função = definir credenciais, URLs, banco e cache da Evolution
+|
 
 PONTOS DE ATENÇÃO
 - Sempre validar imports com a estrutura atual enviada.
 - Não assumir caminhos antigos.
-- O MainSidebar deve conter acesso para a AgentsPage.
+- O AirMore correto do JarvisDois está em backend/services/sms/airmore_service.py.
+- O bridge/local legado do backend está em backend/services/servidor.py e deve ser tratado com cuidado.
+- O frontend do AirMore está em frontend/src/features/airmore/airmoreService.js.
+- O WhatsApp de prospecção deve nascer em frontend/src/pages/prospeccao/ProspeccaoPage.jsx e backend/services/prospeccao/whatsapp_disparo_service.py.
+- Não reintroduzir fluxos antigos de modais como fonte principal da prospecção.
+- O MainSidebar deve conter acesso para a AgentsPage e para a ProspeccaoPage.
 - O frontend deve usar services/agents.js como ponte oficial da Central de Agentes.
 - O Jarvis continua sendo o orquestrador; agentes são executores.
 
