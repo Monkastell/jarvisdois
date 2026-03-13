@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useEvolutionInstances } from "./hooks/useEvolutionInstances";
 import { jarvisBus } from "../../core/jarvis/eventBus";
 
-const API_BASE_URL = "http://127.0.0.1:8010";
+const API_BASE_URL = "https://jarvisdois.onrender.com";
 
 async function listInstanceAgentBindings() {
   const response = await fetch(`${API_BASE_URL}/instance-agents`);
