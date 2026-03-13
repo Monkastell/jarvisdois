@@ -1,0 +1,8 @@
+{
+  "evolution_base_url": "http://localhost:8080",
+  "evolution_api_key": "minhachave123456",
+  "evolution_instance": "Jarvis-web",
+  "evolution_webhook_url": "http://localhost:8010/webhook/evolution",
+  "gemini_api_key": "",
+  "gemini_model": "gemini-2.5-flash"
+}

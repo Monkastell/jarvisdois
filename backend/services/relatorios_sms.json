@@ -1,0 +1,14 @@
+{
+  "2026-03-11": {
+    "total_enviados": 3,
+    "sucessos": 3,
+    "erros": 0,
+    "respondidos": 0
+  },
+  "2026-03-12": {
+    "total_enviados": 397,
+    "sucessos": 33,
+    "erros": 364,
+    "respondidos": 0
+  }
+}

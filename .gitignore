@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Build
+build/
+dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.pid

@@ -1,0 +1,540 @@
+MAPA DO BACKEND ATUAL
+backend/services/jarvis/jarvis_event_service.py
+
+Função:
+registrar eventos internos do Jarvis (event bus básico em memória).
+
+Importa de:
+
+datetime
+
+Funções:
+
+def register_jarvis_event
+
+faz:
+
+cria objeto de evento
+
+adiciona em EVENT_LOG
+
+imprime no console
+
+retorna o evento criado
+
+Campos do evento:
+
+event_type
+origin
+actor
+lead
+previous
+meta
+module
+createdAt
+def list_events
+
+faz:
+
+retorna todos os eventos registrados em memória.
+
+Observação arquitetural:
+
+isso é o início do event bus do Jarvis.
+Hoje está em memória, mas no futuro você pode mover para:
+
+Redis
+
+Kafka
+
+banco de eventos
+
+backend/services/evolution/evolution_service.py
+
+Função:
+integração com Evolution API (WhatsApp).
+
+Importa de:
+
+os
+pathlib.Path
+httpx
+dotenv.load_dotenv
+
+Funções:
+
+def _build_headers
+
+faz:
+
+monta headers
+
+inclui apikey se existir
+
+def normalize_instances
+
+faz:
+
+padroniza resposta da Evolution
+
+retorna estrutura consistente:
+
+id
+name
+status
+number
+profileName
+raw
+async def get_all_instances
+
+faz:
+
+chama endpoint
+
+/instance/fetchInstances
+
+retorna lista normalizada de instâncias.
+
+async def get_instance_status
+
+faz:
+
+consulta todas instâncias
+
+retorna status de uma instância específica.
+
+async def send_text_message
+
+faz:
+
+limpa telefone
+
+chama
+
+POST /message/sendText/{instance}
+
+retorna:
+
+ok
+instance_name
+phone
+text
+provider_response
+backend/services/sms/airmore_service.py
+
+Função:
+integração com AirMore (SMS).
+
+Importa de:
+
+ipaddress.IPv4Address
+pyairmore.request.AirmoreSession
+pyairmore.services.messaging.MessagingService
+
+Classe principal:
+
+class AirMoreSMS
+
+Responsável por manter conexão com celular.
+
+Funções da classe:
+
+def conectado
+
+retorna se serviço está conectado.
+
+def conectar
+
+faz:
+
+cria sessão AirMore
+
+pede autorização no celular
+
+cria MessagingService
+
+def desconectar
+
+limpa sessão.
+
+def status
+
+retorna:
+
+connected
+ip
+porta
+def enviar
+
+envia SMS.
+
+Instância global:
+
+airmore = AirMoreSMS()
+
+Funções públicas:
+
+def connect_airmore
+def disconnect_airmore
+def get_airmore_status
+def send_sms
+
+Ou seja:
+
+agentes → tools → send_sms
+
+backend/services/agents/agent_registry_service.py
+
+Função:
+registro e persistência dos agentes do sistema.
+
+Importa de:
+
+json
+deepcopy
+pathlib.Path
+typing
+
+Arquivos usados:
+
+data/agents_registry.json
+
+Se não existir, cria automaticamente.
+
+agent_registry_service
+
+Funções:
+
+def _ensure_data_file
+
+garante existência do arquivo.
+
+def _read_registry
+
+lê registry de agentes.
+
+fallback → DEFAULT_AGENTS.
+
+def _write_registry
+
+salva agentes no JSON.
+
+def list_agents
+
+retorna todos os agentes.
+
+def get_agent
+
+retorna agente por ID.
+
+def create_agent
+
+cria agente novo.
+
+def update_agent
+
+atualiza agente existente.
+
+def set_agent_status
+
+muda status:
+
+active
+inactive
+disabled
+def normalize_agent
+
+garante estrutura consistente.
+
+backend/services/agents/agent_runtime_service.py
+
+Função:
+motor de execução dos agentes.
+
+Importa de:
+
+agent_context_service.build_agent_context
+agent_handoff_service.resolve_handoff
+agent_registry_service.get_agent
+agent_tools_service.execute_tool
+jarvis_event_service.register_jarvis_event
+
+agent_runtime_service
+
+Função principal:
+
+def run_agent
+
+Fluxo real:
+
+1) pega agente
+2) cria contexto
+3) registra evento start
+4) executa tools
+5) resolve handoff
+6) registra evento finish
+7) retorna resultado
+
+Estrutura retornada:
+
+ok
+agent
+context
+results
+handoff
+
+Fluxo arquitetural real:
+
+evento
+ ↓
+Jarvis
+ ↓
+run_agent
+ ↓
+execute_tool
+ ↓
+register_jarvis_event
+backend/services/agents/agent_tools_service.py
+
+Função:
+sistema de ferramentas que agentes podem usar.
+
+Importa de:
+
+agent_registry_service.get_agent
+jarvis_event_service.register_jarvis_event
+evolution_service.send_text_message
+airmore_service.send_sms
+
+agent_tools_service
+
+Erros definidos:
+
+AgentToolPermissionError
+AgentToolExecutionError
+
+Funções internas (tools):
+
+_tool_send_whatsapp
+
+usa:
+
+evolution_send_message
+_tool_send_sms
+
+usa:
+
+airmore_send_sms
+_tool_add_tag
+
+gera evento.
+
+_tool_append_note
+
+gera evento.
+
+_tool_move_lead
+
+gera evento.
+
+_tool_handoff_agent
+
+gera evento de handoff.
+
+_tool_read_sheet
+
+stub (ainda não implementado).
+
+Registro das tools:
+
+TOOLS_MAP
+send_whatsapp
+send_sms
+add_tag
+append_note
+move_lead
+handoff_agent
+read_sheet
+
+Executor:
+
+def execute_tool
+
+pega tool no mapa e executa.
+
+backend/routes/agent_routes.py
+
+Função:
+API antiga de agentes (simplificada).
+
+Importa:
+
+APIRouter
+BaseModel
+run_agent
+list_agents
+register_agent
+
+agent_routes
+
+Endpoints:
+
+GET /agents
+
+lista agentes.
+
+POST /agents/create
+
+cria agente.
+
+POST /agents/run
+
+executa agente.
+
+Problema importante:
+
+run_agent(context=payload.context)
+
+Mas o runtime novo espera:
+
+run_agent(
+ agent_id
+ event
+ lead
+ actions
+ extra
+)
+
+Ou seja:
+
+essa rota está incompatível com o runtime atual.
+
+backend/routes/agents_routes.py
+
+Função:
+API nova e correta da Central de Agentes.
+
+Importa:
+
+create_agent
+get_agent
+list_agents
+set_agent_status
+update_agent
+run_agent
+
+agents_routes
+
+Endpoints:
+
+GET /agents
+
+lista agentes.
+
+GET /agents/{id}
+
+detalhes do agente.
+
+POST /agents
+
+criar agente.
+
+PUT /agents/{id}
+
+editar agente.
+
+PATCH /agents/{id}/status
+
+ativar/desativar agente.
+
+POST /agents/{id}/run
+
+executar agente.
+
+CONFLITO QUE EXISTE HOJE
+
+Você tem duas rotas:
+
+agent_routes.py
+agents_routes.py
+
+Diferenças:
+
+arquivo	status
+agent_routes.py	versão antiga
+agents_routes.py	versão nova
+
+Recomendação arquitetural:
+
+DELETAR
+
+agent_routes.py
+
+e manter apenas:
+
+agents_routes.py
+
+Isso evita bugs silenciosos.
+
+MAPA GERAL DO SISTEMA
+
+Fluxo real agora:
+
+Webhook / Evento
+       ↓
+Jarvis
+       ↓
+run_agent
+       ↓
+execute_tool
+       ↓
+Integração
+   ├─ Evolution
+   └─ AirMore
+       ↓
+register_jarvis_event
+O QUE JÁ EXISTE NA MEMÓRIA DO PROJETO
+
+Base atual do JarvisDois:
+
+Backend
+services/
+ ├ agents/
+ │  ├ agent_registry_service
+ │  ├ agent_runtime_service
+ │  ├ agent_tools_service
+ │  ├ agent_context_service
+ │  ├ agent_handoff_service
+ │
+ ├ jarvis/
+ │  └ jarvis_event_service
+ │
+ ├ evolution/
+ │  └ evolution_service
+ │
+ └ sms/
+    └ airmore_service
+Sistema de agentes
+
+já existe:
+
+registry
+runtime
+tools
+handoff
+context
+ferramentas disponíveis
+send_whatsapp
+send_sms
+add_tag
+append_note
+move_lead
+handoff_agent
+read_sheet (stub)
+integrações
+WhatsApp → Evolution
+SMS → AirMore
+eventos
+JarvisEvent
+rotas API
+/agents

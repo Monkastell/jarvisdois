@@ -1,0 +1,3602 @@
+[
+  {
+    "data": "2026-03-11 06:00:48",
+    "indice": 1,
+    "total_lista": 3,
+    "telefone": "5582996151175",
+    "status": "SUCESSO",
+    "mensagem": "Vamos tomar café da manha?",
+    "delay": 8
+  },
+  {
+    "data": "2026-03-11 06:00:56",
+    "indice": 2,
+    "total_lista": 3,
+    "telefone": "5582996336263",
+    "status": "SUCESSO",
+    "mensagem": "Vamos tomar café da manha?",
+    "delay": 8
+  },
+  {
+    "data": "2026-03-11 06:01:05",
+    "indice": 3,
+    "total_lista": 3,
+    "telefone": "5582999739520",
+    "status": "SUCESSO",
+    "mensagem": "Vamos tomar café da manha?",
+    "delay": 8
+  },
+  {
+    "data": "2026-03-12 09:24:25",
+    "indice": 1,
+    "total_lista": 395,
+    "telefone": "71986020981",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:24:37",
+    "indice": 2,
+    "total_lista": 395,
+    "telefone": "77988293007",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:24:50",
+    "indice": 3,
+    "total_lista": 395,
+    "telefone": "75991918383",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:25:02",
+    "indice": 4,
+    "total_lista": 395,
+    "telefone": "73998127608",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:25:14",
+    "indice": 5,
+    "total_lista": 395,
+    "telefone": "77991957609",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:25:27",
+    "indice": 6,
+    "total_lista": 395,
+    "telefone": "75999726173",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:25:40",
+    "indice": 7,
+    "total_lista": 395,
+    "telefone": "73998191333",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:25:52",
+    "indice": 8,
+    "total_lista": 395,
+    "telefone": "73988664149",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:26:05",
+    "indice": 9,
+    "total_lista": 395,
+    "telefone": "71986119470",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:26:17",
+    "indice": 10,
+    "total_lista": 395,
+    "telefone": "73981398881",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:26:30",
+    "indice": 11,
+    "total_lista": 395,
+    "telefone": "75991891000",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:26:43",
+    "indice": 12,
+    "total_lista": 395,
+    "telefone": "77981295693",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:26:56",
+    "indice": 13,
+    "total_lista": 395,
+    "telefone": "73999544361",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:27:08",
+    "indice": 14,
+    "total_lista": 395,
+    "telefone": "71988802086",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:27:22",
+    "indice": 15,
+    "total_lista": 395,
+    "telefone": "71988256313",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:27:35",
+    "indice": 16,
+    "total_lista": 395,
+    "telefone": "71999612244",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:27:47",
+    "indice": 17,
+    "total_lista": 395,
+    "telefone": "75999660039",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:28:00",
+    "indice": 18,
+    "total_lista": 395,
+    "telefone": "71988333472",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:28:13",
+    "indice": 19,
+    "total_lista": 395,
+    "telefone": "79999748086",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:28:26",
+    "indice": 20,
+    "total_lista": 395,
+    "telefone": "74988113920",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:28:38",
+    "indice": 21,
+    "total_lista": 395,
+    "telefone": "71996920018",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:28:51",
+    "indice": 22,
+    "total_lista": 395,
+    "telefone": "71993146003",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:29:04",
+    "indice": 23,
+    "total_lista": 395,
+    "telefone": "75982347573",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:29:17",
+    "indice": 24,
+    "total_lista": 395,
+    "telefone": "77988186424",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:29:29",
+    "indice": 25,
+    "total_lista": 395,
+    "telefone": "71985116306",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:29:42",
+    "indice": 26,
+    "total_lista": 395,
+    "telefone": "71999047371",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:29:55",
+    "indice": 27,
+    "total_lista": 395,
+    "telefone": "71992888921",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:30:07",
+    "indice": 28,
+    "total_lista": 395,
+    "telefone": "71996511946",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:30:20",
+    "indice": 29,
+    "total_lista": 395,
+    "telefone": "71992318450",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:30:33",
+    "indice": 30,
+    "total_lista": 395,
+    "telefone": "73991141039",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:30:46",
+    "indice": 31,
+    "total_lista": 395,
+    "telefone": "73981269844",
+    "status": "SUCESSO",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:30:58",
+    "indice": 32,
+    "total_lista": 395,
+    "telefone": "71999985868",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:31:10",
+    "indice": 33,
+    "total_lista": 395,
+    "telefone": "73988181672",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:31:22",
+    "indice": 34,
+    "total_lista": 395,
+    "telefone": "74999802168",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:31:34",
+    "indice": 35,
+    "total_lista": 395,
+    "telefone": "71999877268",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:31:46",
+    "indice": 36,
+    "total_lista": 395,
+    "telefone": "77991058219",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:31:58",
+    "indice": 37,
+    "total_lista": 395,
+    "telefone": "75991592494",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:32:10",
+    "indice": 38,
+    "total_lista": 395,
+    "telefone": "74999691778",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:32:22",
+    "indice": 39,
+    "total_lista": 395,
+    "telefone": "87988522335",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:32:34",
+    "indice": 40,
+    "total_lista": 395,
+    "telefone": "71992193929",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:32:46",
+    "indice": 41,
+    "total_lista": 395,
+    "telefone": "71987603807",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:32:58",
+    "indice": 42,
+    "total_lista": 395,
+    "telefone": "73988312252",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:33:10",
+    "indice": 43,
+    "total_lista": 395,
+    "telefone": "73988877700",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:33:22",
+    "indice": 44,
+    "total_lista": 395,
+    "telefone": "74991910075",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:33:34",
+    "indice": 45,
+    "total_lista": 395,
+    "telefone": "71999221261",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:33:46",
+    "indice": 46,
+    "total_lista": 395,
+    "telefone": "77999490519",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:33:58",
+    "indice": 47,
+    "total_lista": 395,
+    "telefone": "71988626968",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:34:10",
+    "indice": 48,
+    "total_lista": 395,
+    "telefone": "71987429002",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:34:22",
+    "indice": 49,
+    "total_lista": 395,
+    "telefone": "77999875145",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:34:34",
+    "indice": 50,
+    "total_lista": 395,
+    "telefone": "75988187240",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:34:46",
+    "indice": 51,
+    "total_lista": 395,
+    "telefone": "71988358984",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:34:58",
+    "indice": 52,
+    "total_lista": 395,
+    "telefone": "77991166042",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:35:10",
+    "indice": 53,
+    "total_lista": 395,
+    "telefone": "75999216377",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:35:22",
+    "indice": 54,
+    "total_lista": 395,
+    "telefone": "71991539730",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:35:34",
+    "indice": 55,
+    "total_lista": 395,
+    "telefone": "71981711889",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:35:46",
+    "indice": 56,
+    "total_lista": 395,
+    "telefone": "75999536233",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:35:58",
+    "indice": 57,
+    "total_lista": 395,
+    "telefone": "74999565246",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:36:10",
+    "indice": 58,
+    "total_lista": 395,
+    "telefone": "75999758484",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:36:22",
+    "indice": 59,
+    "total_lista": 395,
+    "telefone": "75998780444",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:36:34",
+    "indice": 60,
+    "total_lista": 395,
+    "telefone": "71987100127",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:36:46",
+    "indice": 61,
+    "total_lista": 395,
+    "telefone": "75981723072",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:36:58",
+    "indice": 62,
+    "total_lista": 395,
+    "telefone": "75999853766",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:37:10",
+    "indice": 63,
+    "total_lista": 395,
+    "telefone": "73999635062",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:37:22",
+    "indice": 64,
+    "total_lista": 395,
+    "telefone": "71986556165",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:37:34",
+    "indice": 65,
+    "total_lista": 395,
+    "telefone": "73998619618",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:37:46",
+    "indice": 66,
+    "total_lista": 395,
+    "telefone": "75981895275",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:37:58",
+    "indice": 67,
+    "total_lista": 395,
+    "telefone": "71991629013",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:38:10",
+    "indice": 68,
+    "total_lista": 395,
+    "telefone": "71987256605",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:38:22",
+    "indice": 69,
+    "total_lista": 395,
+    "telefone": "79999183397",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:38:34",
+    "indice": 70,
+    "total_lista": 395,
+    "telefone": "75981702031",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:38:46",
+    "indice": 71,
+    "total_lista": 395,
+    "telefone": "71987430635",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:38:58",
+    "indice": 72,
+    "total_lista": 395,
+    "telefone": "75988086040",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:39:10",
+    "indice": 73,
+    "total_lista": 395,
+    "telefone": "73999976064",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:39:22",
+    "indice": 74,
+    "total_lista": 395,
+    "telefone": "75999406633",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:39:34",
+    "indice": 75,
+    "total_lista": 395,
+    "telefone": "77991020470",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:39:46",
+    "indice": 76,
+    "total_lista": 395,
+    "telefone": "71981810184",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:39:58",
+    "indice": 77,
+    "total_lista": 395,
+    "telefone": "71982568072",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:40:10",
+    "indice": 78,
+    "total_lista": 395,
+    "telefone": "71988152132",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:40:22",
+    "indice": 79,
+    "total_lista": 395,
+    "telefone": "75981487319",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:40:34",
+    "indice": 80,
+    "total_lista": 395,
+    "telefone": "71986603747",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:40:46",
+    "indice": 81,
+    "total_lista": 395,
+    "telefone": "73988037757",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:40:58",
+    "indice": 82,
+    "total_lista": 395,
+    "telefone": "71988283212",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:41:10",
+    "indice": 83,
+    "total_lista": 395,
+    "telefone": "71999780271",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:41:22",
+    "indice": 84,
+    "total_lista": 395,
+    "telefone": "74988017025",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:41:34",
+    "indice": 85,
+    "total_lista": 395,
+    "telefone": "71988361596",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:41:46",
+    "indice": 86,
+    "total_lista": 395,
+    "telefone": "77988592845",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:41:58",
+    "indice": 87,
+    "total_lista": 395,
+    "telefone": "71999068940",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:42:10",
+    "indice": 88,
+    "total_lista": 395,
+    "telefone": "71982720384",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:42:22",
+    "indice": 89,
+    "total_lista": 395,
+    "telefone": "75991405484",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:42:34",
+    "indice": 90,
+    "total_lista": 395,
+    "telefone": "71992655879",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:42:46",
+    "indice": 91,
+    "total_lista": 395,
+    "telefone": "71981111549",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:42:58",
+    "indice": 92,
+    "total_lista": 395,
+    "telefone": "71993927562",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:43:10",
+    "indice": 93,
+    "total_lista": 395,
+    "telefone": "77988068510",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:43:22",
+    "indice": 94,
+    "total_lista": 395,
+    "telefone": "71982588631",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:43:34",
+    "indice": 95,
+    "total_lista": 395,
+    "telefone": "71982563520",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:43:46",
+    "indice": 96,
+    "total_lista": 395,
+    "telefone": "71999819291",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:43:58",
+    "indice": 97,
+    "total_lista": 395,
+    "telefone": "73991792482",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:44:10",
+    "indice": 98,
+    "total_lista": 395,
+    "telefone": "73999392289",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:44:22",
+    "indice": 99,
+    "total_lista": 395,
+    "telefone": "71987051660",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:44:34",
+    "indice": 100,
+    "total_lista": 395,
+    "telefone": "75999916380",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:44:46",
+    "indice": 101,
+    "total_lista": 395,
+    "telefone": "71993703901",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:44:58",
+    "indice": 102,
+    "total_lista": 395,
+    "telefone": "73988448738",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:45:10",
+    "indice": 103,
+    "total_lista": 395,
+    "telefone": "71987899797",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:45:22",
+    "indice": 104,
+    "total_lista": 395,
+    "telefone": "77999811253",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:45:34",
+    "indice": 105,
+    "total_lista": 395,
+    "telefone": "71991112627",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:45:47",
+    "indice": 106,
+    "total_lista": 395,
+    "telefone": "71987893990",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:45:59",
+    "indice": 107,
+    "total_lista": 395,
+    "telefone": "75991898065",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:46:11",
+    "indice": 108,
+    "total_lista": 395,
+    "telefone": "75981119765",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:46:23",
+    "indice": 109,
+    "total_lista": 395,
+    "telefone": "73991474048",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:46:35",
+    "indice": 110,
+    "total_lista": 395,
+    "telefone": "75988423809",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:46:47",
+    "indice": 111,
+    "total_lista": 395,
+    "telefone": "71996402651",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:46:59",
+    "indice": 112,
+    "total_lista": 395,
+    "telefone": "71988428991",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:47:11",
+    "indice": 113,
+    "total_lista": 395,
+    "telefone": "71988450091",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:47:23",
+    "indice": 114,
+    "total_lista": 395,
+    "telefone": "71991921876",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:47:35",
+    "indice": 115,
+    "total_lista": 395,
+    "telefone": "71987538230",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:47:47",
+    "indice": 116,
+    "total_lista": 395,
+    "telefone": "75999611974",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:47:59",
+    "indice": 117,
+    "total_lista": 395,
+    "telefone": "73981024073",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:48:11",
+    "indice": 118,
+    "total_lista": 395,
+    "telefone": "71989895874",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:48:23",
+    "indice": 119,
+    "total_lista": 395,
+    "telefone": "71987156345",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:48:35",
+    "indice": 120,
+    "total_lista": 395,
+    "telefone": "75992939320",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:48:47",
+    "indice": 121,
+    "total_lista": 395,
+    "telefone": "71986597144",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:48:59",
+    "indice": 122,
+    "total_lista": 395,
+    "telefone": "71997186287",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:49:11",
+    "indice": 123,
+    "total_lista": 395,
+    "telefone": "71999364848",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:49:23",
+    "indice": 124,
+    "total_lista": 395,
+    "telefone": "71991021580",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:49:35",
+    "indice": 125,
+    "total_lista": 395,
+    "telefone": "73988471846",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:49:47",
+    "indice": 126,
+    "total_lista": 395,
+    "telefone": "71985042316",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:49:59",
+    "indice": 127,
+    "total_lista": 395,
+    "telefone": "74991899400",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:50:11",
+    "indice": 128,
+    "total_lista": 395,
+    "telefone": "71992507239",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:50:23",
+    "indice": 129,
+    "total_lista": 395,
+    "telefone": "75991472140",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:50:35",
+    "indice": 130,
+    "total_lista": 395,
+    "telefone": "71993029910",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:50:47",
+    "indice": 131,
+    "total_lista": 395,
+    "telefone": "71987070756",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:50:59",
+    "indice": 132,
+    "total_lista": 395,
+    "telefone": "75991158133",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:51:11",
+    "indice": 133,
+    "total_lista": 395,
+    "telefone": "71999997108",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:51:23",
+    "indice": 134,
+    "total_lista": 395,
+    "telefone": "71999668778",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:51:35",
+    "indice": 135,
+    "total_lista": 395,
+    "telefone": "75988318684",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:51:47",
+    "indice": 136,
+    "total_lista": 395,
+    "telefone": "77999301595",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:51:59",
+    "indice": 137,
+    "total_lista": 395,
+    "telefone": "71999580716",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:52:11",
+    "indice": 138,
+    "total_lista": 395,
+    "telefone": "73991969625",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:52:23",
+    "indice": 139,
+    "total_lista": 395,
+    "telefone": "74988018084",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:52:35",
+    "indice": 140,
+    "total_lista": 395,
+    "telefone": "74981276955",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:52:47",
+    "indice": 141,
+    "total_lista": 395,
+    "telefone": "71999792210",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:52:59",
+    "indice": 142,
+    "total_lista": 395,
+    "telefone": "75999121277",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:53:11",
+    "indice": 143,
+    "total_lista": 395,
+    "telefone": "73988534738",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:53:23",
+    "indice": 144,
+    "total_lista": 395,
+    "telefone": "71988122434",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:53:35",
+    "indice": 145,
+    "total_lista": 395,
+    "telefone": "74991143566",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:53:47",
+    "indice": 146,
+    "total_lista": 395,
+    "telefone": "75983677743",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:53:59",
+    "indice": 147,
+    "total_lista": 395,
+    "telefone": "71999999113",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:54:11",
+    "indice": 148,
+    "total_lista": 395,
+    "telefone": "75981684549",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:54:23",
+    "indice": 149,
+    "total_lista": 395,
+    "telefone": "74991531334",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:54:35",
+    "indice": 150,
+    "total_lista": 395,
+    "telefone": "77991526437",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:54:47",
+    "indice": 151,
+    "total_lista": 395,
+    "telefone": "75998453970",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:54:59",
+    "indice": 152,
+    "total_lista": 395,
+    "telefone": "71991617632",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:55:11",
+    "indice": 153,
+    "total_lista": 395,
+    "telefone": "71999551030",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:55:23",
+    "indice": 154,
+    "total_lista": 395,
+    "telefone": "75991375152",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:55:35",
+    "indice": 155,
+    "total_lista": 395,
+    "telefone": "74991050296",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:55:47",
+    "indice": 156,
+    "total_lista": 395,
+    "telefone": "75982006370",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:55:59",
+    "indice": 157,
+    "total_lista": 395,
+    "telefone": "73999897088",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:56:11",
+    "indice": 158,
+    "total_lista": 395,
+    "telefone": "71987336568",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:56:23",
+    "indice": 159,
+    "total_lista": 395,
+    "telefone": "73999962144",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:56:35",
+    "indice": 160,
+    "total_lista": 395,
+    "telefone": "71985070812",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:56:47",
+    "indice": 161,
+    "total_lista": 395,
+    "telefone": "71987581535",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:56:59",
+    "indice": 162,
+    "total_lista": 395,
+    "telefone": "71999482374",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:57:11",
+    "indice": 163,
+    "total_lista": 395,
+    "telefone": "77999392764",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:57:23",
+    "indice": 164,
+    "total_lista": 395,
+    "telefone": "71992087403",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:57:35",
+    "indice": 165,
+    "total_lista": 395,
+    "telefone": "71988313038",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:57:47",
+    "indice": 166,
+    "total_lista": 395,
+    "telefone": "75981176353",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:57:59",
+    "indice": 167,
+    "total_lista": 395,
+    "telefone": "74999911117",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:58:11",
+    "indice": 168,
+    "total_lista": 395,
+    "telefone": "71993370332",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:58:23",
+    "indice": 169,
+    "total_lista": 395,
+    "telefone": "71997091004",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:58:35",
+    "indice": 170,
+    "total_lista": 395,
+    "telefone": "71996153315",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:58:47",
+    "indice": 171,
+    "total_lista": 395,
+    "telefone": "71986646798",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:58:59",
+    "indice": 172,
+    "total_lista": 395,
+    "telefone": "73998145569",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:59:11",
+    "indice": 173,
+    "total_lista": 395,
+    "telefone": "75991348128",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:59:23",
+    "indice": 174,
+    "total_lista": 395,
+    "telefone": "75992026653",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:59:35",
+    "indice": 175,
+    "total_lista": 395,
+    "telefone": "73988497501",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:59:47",
+    "indice": 176,
+    "total_lista": 395,
+    "telefone": "77991662028",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 09:59:59",
+    "indice": 177,
+    "total_lista": 395,
+    "telefone": "77991916652",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:00:11",
+    "indice": 178,
+    "total_lista": 395,
+    "telefone": "75988552711",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:00:23",
+    "indice": 179,
+    "total_lista": 395,
+    "telefone": "73991955726",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:00:35",
+    "indice": 180,
+    "total_lista": 395,
+    "telefone": "71999949291",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:00:47",
+    "indice": 181,
+    "total_lista": 395,
+    "telefone": "71986623347",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:00:59",
+    "indice": 182,
+    "total_lista": 395,
+    "telefone": "71981274307",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:01:11",
+    "indice": 183,
+    "total_lista": 395,
+    "telefone": "75999493802",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:01:23",
+    "indice": 184,
+    "total_lista": 395,
+    "telefone": "77999876761",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:01:35",
+    "indice": 185,
+    "total_lista": 395,
+    "telefone": "71996958002",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:01:47",
+    "indice": 186,
+    "total_lista": 395,
+    "telefone": "71982170525",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:01:59",
+    "indice": 187,
+    "total_lista": 395,
+    "telefone": "75999620500",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:02:11",
+    "indice": 188,
+    "total_lista": 395,
+    "telefone": "71982502080",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:02:23",
+    "indice": 189,
+    "total_lista": 395,
+    "telefone": "71996825781",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:02:35",
+    "indice": 190,
+    "total_lista": 395,
+    "telefone": "71982607385",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:02:47",
+    "indice": 191,
+    "total_lista": 395,
+    "telefone": "77999380027",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:02:59",
+    "indice": 192,
+    "total_lista": 395,
+    "telefone": "71991693006",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:03:11",
+    "indice": 193,
+    "total_lista": 395,
+    "telefone": "87988066061",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:03:23",
+    "indice": 194,
+    "total_lista": 395,
+    "telefone": "71992043427",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:03:35",
+    "indice": 195,
+    "total_lista": 395,
+    "telefone": "87996524520",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:03:47",
+    "indice": 196,
+    "total_lista": 395,
+    "telefone": "71988051884",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:03:59",
+    "indice": 197,
+    "total_lista": 395,
+    "telefone": "73999562886",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:04:11",
+    "indice": 198,
+    "total_lista": 395,
+    "telefone": "71988376828",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:04:23",
+    "indice": 199,
+    "total_lista": 395,
+    "telefone": "71992470024",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:04:35",
+    "indice": 200,
+    "total_lista": 395,
+    "telefone": "75998305579",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:04:47",
+    "indice": 201,
+    "total_lista": 395,
+    "telefone": "71981748459",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:04:59",
+    "indice": 202,
+    "total_lista": 395,
+    "telefone": "71999160203",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:05:11",
+    "indice": 203,
+    "total_lista": 395,
+    "telefone": "73988758870",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:05:23",
+    "indice": 204,
+    "total_lista": 395,
+    "telefone": "71992184284",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:05:35",
+    "indice": 205,
+    "total_lista": 395,
+    "telefone": "71993281157",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:05:47",
+    "indice": 206,
+    "total_lista": 395,
+    "telefone": "74999910746",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:05:59",
+    "indice": 207,
+    "total_lista": 395,
+    "telefone": "73991508265",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:06:12",
+    "indice": 208,
+    "total_lista": 395,
+    "telefone": "75981740961",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:06:24",
+    "indice": 209,
+    "total_lista": 395,
+    "telefone": "75981579772",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:06:36",
+    "indice": 210,
+    "total_lista": 395,
+    "telefone": "75999645652",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:06:48",
+    "indice": 211,
+    "total_lista": 395,
+    "telefone": "75988246199",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:07:00",
+    "indice": 212,
+    "total_lista": 395,
+    "telefone": "75982127560",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:07:12",
+    "indice": 213,
+    "total_lista": 395,
+    "telefone": "75992153622",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:07:24",
+    "indice": 214,
+    "total_lista": 395,
+    "telefone": "77981066939",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:07:36",
+    "indice": 215,
+    "total_lista": 395,
+    "telefone": "74981277700",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:07:48",
+    "indice": 216,
+    "total_lista": 395,
+    "telefone": "73991979582",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:08:00",
+    "indice": 217,
+    "total_lista": 395,
+    "telefone": "75999118837",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:08:12",
+    "indice": 218,
+    "total_lista": 395,
+    "telefone": "77999930953",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:08:24",
+    "indice": 219,
+    "total_lista": 395,
+    "telefone": "71985380435",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:08:36",
+    "indice": 220,
+    "total_lista": 395,
+    "telefone": "71999651053",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:08:48",
+    "indice": 221,
+    "total_lista": 395,
+    "telefone": "71987752206",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:09:00",
+    "indice": 222,
+    "total_lista": 395,
+    "telefone": "73988570948",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:09:12",
+    "indice": 223,
+    "total_lista": 395,
+    "telefone": "71985000838",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:09:24",
+    "indice": 224,
+    "total_lista": 395,
+    "telefone": "75998036546",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:09:36",
+    "indice": 225,
+    "total_lista": 395,
+    "telefone": "75982609889",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:09:48",
+    "indice": 226,
+    "total_lista": 395,
+    "telefone": "71988379301",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:10:00",
+    "indice": 227,
+    "total_lista": 395,
+    "telefone": "73981230100",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:10:12",
+    "indice": 228,
+    "total_lista": 395,
+    "telefone": "74999627305",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:10:24",
+    "indice": 229,
+    "total_lista": 395,
+    "telefone": "77999688840",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:10:36",
+    "indice": 230,
+    "total_lista": 395,
+    "telefone": "71996243503",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:10:48",
+    "indice": 231,
+    "total_lista": 395,
+    "telefone": "74991480870",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:11:00",
+    "indice": 232,
+    "total_lista": 395,
+    "telefone": "71988976043",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:11:12",
+    "indice": 233,
+    "total_lista": 395,
+    "telefone": "71991371787",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:11:24",
+    "indice": 234,
+    "total_lista": 395,
+    "telefone": "71988187422",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:11:36",
+    "indice": 235,
+    "total_lista": 395,
+    "telefone": "71999541513",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:11:48",
+    "indice": 236,
+    "total_lista": 395,
+    "telefone": "77991003747",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:12:00",
+    "indice": 237,
+    "total_lista": 395,
+    "telefone": "75992196560",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:12:12",
+    "indice": 238,
+    "total_lista": 395,
+    "telefone": "73999891279",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:12:24",
+    "indice": 239,
+    "total_lista": 395,
+    "telefone": "75981105079",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:12:36",
+    "indice": 240,
+    "total_lista": 395,
+    "telefone": "73988538047",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:12:48",
+    "indice": 241,
+    "total_lista": 395,
+    "telefone": "75999554701",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:13:00",
+    "indice": 242,
+    "total_lista": 395,
+    "telefone": "71983217570",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:13:15",
+    "indice": 243,
+    "total_lista": 395,
+    "telefone": "75991425800",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:13:27",
+    "indice": 244,
+    "total_lista": 395,
+    "telefone": "87988015576",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:13:39",
+    "indice": 245,
+    "total_lista": 395,
+    "telefone": "77999973113",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:13:51",
+    "indice": 246,
+    "total_lista": 395,
+    "telefone": "71994010270",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:14:03",
+    "indice": 247,
+    "total_lista": 395,
+    "telefone": "77999145611",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:14:15",
+    "indice": 248,
+    "total_lista": 395,
+    "telefone": "74999829422",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:14:27",
+    "indice": 249,
+    "total_lista": 395,
+    "telefone": "77999654949",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:14:39",
+    "indice": 250,
+    "total_lista": 395,
+    "telefone": "79999471690",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:14:51",
+    "indice": 251,
+    "total_lista": 395,
+    "telefone": "73981756898",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:15:03",
+    "indice": 252,
+    "total_lista": 395,
+    "telefone": "71987088101",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:15:15",
+    "indice": 253,
+    "total_lista": 395,
+    "telefone": "74988060605",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:15:27",
+    "indice": 254,
+    "total_lista": 395,
+    "telefone": "77988056474",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:15:39",
+    "indice": 255,
+    "total_lista": 395,
+    "telefone": "71992934982",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:15:51",
+    "indice": 256,
+    "total_lista": 395,
+    "telefone": "87988525083",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:16:03",
+    "indice": 257,
+    "total_lista": 395,
+    "telefone": "71993961013",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:16:15",
+    "indice": 258,
+    "total_lista": 395,
+    "telefone": "71987127535",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:16:27",
+    "indice": 259,
+    "total_lista": 395,
+    "telefone": "71986246106",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:16:39",
+    "indice": 260,
+    "total_lista": 395,
+    "telefone": "87988173272",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:16:51",
+    "indice": 261,
+    "total_lista": 395,
+    "telefone": "73988152568",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:17:03",
+    "indice": 262,
+    "total_lista": 395,
+    "telefone": "75988070503",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:17:15",
+    "indice": 263,
+    "total_lista": 395,
+    "telefone": "71988122927",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:17:27",
+    "indice": 264,
+    "total_lista": 395,
+    "telefone": "77999036875",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:17:39",
+    "indice": 265,
+    "total_lista": 395,
+    "telefone": "75981199906",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:17:51",
+    "indice": 266,
+    "total_lista": 395,
+    "telefone": "73999815757",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:18:03",
+    "indice": 267,
+    "total_lista": 395,
+    "telefone": "73988331722",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:18:15",
+    "indice": 268,
+    "total_lista": 395,
+    "telefone": "71993869943",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:18:27",
+    "indice": 269,
+    "total_lista": 395,
+    "telefone": "77999207895",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:18:39",
+    "indice": 270,
+    "total_lista": 395,
+    "telefone": "71991276270",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:18:51",
+    "indice": 271,
+    "total_lista": 395,
+    "telefone": "74981432142",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:19:03",
+    "indice": 272,
+    "total_lista": 395,
+    "telefone": "73991325030",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:19:15",
+    "indice": 273,
+    "total_lista": 395,
+    "telefone": "71986297008",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:19:27",
+    "indice": 274,
+    "total_lista": 395,
+    "telefone": "71981329290",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:19:39",
+    "indice": 275,
+    "total_lista": 395,
+    "telefone": "71983583206",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:19:51",
+    "indice": 276,
+    "total_lista": 395,
+    "telefone": "71993833618",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:20:03",
+    "indice": 277,
+    "total_lista": 395,
+    "telefone": "73998680588",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:20:15",
+    "indice": 278,
+    "total_lista": 395,
+    "telefone": "75997071246",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:20:27",
+    "indice": 279,
+    "total_lista": 395,
+    "telefone": "71981094730",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:20:39",
+    "indice": 280,
+    "total_lista": 395,
+    "telefone": "75981366585",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:20:51",
+    "indice": 281,
+    "total_lista": 395,
+    "telefone": "77988198390",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:21:03",
+    "indice": 282,
+    "total_lista": 395,
+    "telefone": "71987894003",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:21:15",
+    "indice": 283,
+    "total_lista": 395,
+    "telefone": "77999843477",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:21:27",
+    "indice": 284,
+    "total_lista": 395,
+    "telefone": "71999265632",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:21:39",
+    "indice": 285,
+    "total_lista": 395,
+    "telefone": "74999613794",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:21:51",
+    "indice": 286,
+    "total_lista": 395,
+    "telefone": "73988516927",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:22:03",
+    "indice": 287,
+    "total_lista": 395,
+    "telefone": "74988021332",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:22:15",
+    "indice": 288,
+    "total_lista": 395,
+    "telefone": "75999864286",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:22:27",
+    "indice": 289,
+    "total_lista": 395,
+    "telefone": "75988235887",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:22:39",
+    "indice": 290,
+    "total_lista": 395,
+    "telefone": "71999857433",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:22:51",
+    "indice": 291,
+    "total_lista": 395,
+    "telefone": "75999673252",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:23:03",
+    "indice": 292,
+    "total_lista": 395,
+    "telefone": "74999765908",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:23:15",
+    "indice": 293,
+    "total_lista": 395,
+    "telefone": "77999240422",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:23:27",
+    "indice": 294,
+    "total_lista": 395,
+    "telefone": "71984344633",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:23:39",
+    "indice": 295,
+    "total_lista": 395,
+    "telefone": "71999194722",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:23:51",
+    "indice": 296,
+    "total_lista": 395,
+    "telefone": "75999323029",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:24:03",
+    "indice": 297,
+    "total_lista": 395,
+    "telefone": "73999744957",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:24:15",
+    "indice": 298,
+    "total_lista": 395,
+    "telefone": "71982206058",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:24:27",
+    "indice": 299,
+    "total_lista": 395,
+    "telefone": "75983288951",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:24:39",
+    "indice": 300,
+    "total_lista": 395,
+    "telefone": "71987685231",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:24:51",
+    "indice": 301,
+    "total_lista": 395,
+    "telefone": "77999754179",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:25:03",
+    "indice": 302,
+    "total_lista": 395,
+    "telefone": "71991056258",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:25:15",
+    "indice": 303,
+    "total_lista": 395,
+    "telefone": "73988217569",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:25:27",
+    "indice": 304,
+    "total_lista": 395,
+    "telefone": "71996269627",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:25:39",
+    "indice": 305,
+    "total_lista": 395,
+    "telefone": "77999539227",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:25:51",
+    "indice": 306,
+    "total_lista": 395,
+    "telefone": "71996603908",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:26:03",
+    "indice": 307,
+    "total_lista": 395,
+    "telefone": "71988397296",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:26:15",
+    "indice": 308,
+    "total_lista": 395,
+    "telefone": "75988145199",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:26:28",
+    "indice": 309,
+    "total_lista": 395,
+    "telefone": "77991182365",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:26:40",
+    "indice": 310,
+    "total_lista": 395,
+    "telefone": "71992033601",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:26:52",
+    "indice": 311,
+    "total_lista": 395,
+    "telefone": "71992938176",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:27:04",
+    "indice": 312,
+    "total_lista": 395,
+    "telefone": "77999719203",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:27:16",
+    "indice": 313,
+    "total_lista": 395,
+    "telefone": "77981346662",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:27:28",
+    "indice": 314,
+    "total_lista": 395,
+    "telefone": "71986768646",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:27:40",
+    "indice": 315,
+    "total_lista": 395,
+    "telefone": "75999554806",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:27:52",
+    "indice": 316,
+    "total_lista": 395,
+    "telefone": "77999909995",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:28:04",
+    "indice": 317,
+    "total_lista": 395,
+    "telefone": "75991339653",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:28:16",
+    "indice": 318,
+    "total_lista": 395,
+    "telefone": "71988241850",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:28:28",
+    "indice": 319,
+    "total_lista": 395,
+    "telefone": "73988515827",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:28:40",
+    "indice": 320,
+    "total_lista": 395,
+    "telefone": "75981533055",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:28:52",
+    "indice": 321,
+    "total_lista": 395,
+    "telefone": "73988685568",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:29:04",
+    "indice": 322,
+    "total_lista": 395,
+    "telefone": "75991367102",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:29:16",
+    "indice": 323,
+    "total_lista": 395,
+    "telefone": "73999636266",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:29:28",
+    "indice": 324,
+    "total_lista": 395,
+    "telefone": "71987041034",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:29:40",
+    "indice": 325,
+    "total_lista": 395,
+    "telefone": "75982381495",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:29:52",
+    "indice": 326,
+    "total_lista": 395,
+    "telefone": "71988491690",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:30:04",
+    "indice": 327,
+    "total_lista": 395,
+    "telefone": "71991925696",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:30:16",
+    "indice": 328,
+    "total_lista": 395,
+    "telefone": "77991416628",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:30:28",
+    "indice": 329,
+    "total_lista": 395,
+    "telefone": "77999917730",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:30:40",
+    "indice": 330,
+    "total_lista": 395,
+    "telefone": "82991196673",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:30:52",
+    "indice": 331,
+    "total_lista": 395,
+    "telefone": "75999354868",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:31:04",
+    "indice": 332,
+    "total_lista": 395,
+    "telefone": "77999424993",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:31:16",
+    "indice": 333,
+    "total_lista": 395,
+    "telefone": "71999577456",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:31:28",
+    "indice": 334,
+    "total_lista": 395,
+    "telefone": "73999863180",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:31:40",
+    "indice": 335,
+    "total_lista": 395,
+    "telefone": "73999248405",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:31:52",
+    "indice": 336,
+    "total_lista": 395,
+    "telefone": "74991894842",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:32:04",
+    "indice": 337,
+    "total_lista": 395,
+    "telefone": "75991773078",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:32:16",
+    "indice": 338,
+    "total_lista": 395,
+    "telefone": "71986941175",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:32:28",
+    "indice": 339,
+    "total_lista": 395,
+    "telefone": "77999665052",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:32:40",
+    "indice": 340,
+    "total_lista": 395,
+    "telefone": "71997017384",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:32:52",
+    "indice": 341,
+    "total_lista": 395,
+    "telefone": "77999636340",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:33:04",
+    "indice": 342,
+    "total_lista": 395,
+    "telefone": "74999676381",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:33:16",
+    "indice": 343,
+    "total_lista": 395,
+    "telefone": "71987023337",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:33:28",
+    "indice": 344,
+    "total_lista": 395,
+    "telefone": "71999991073",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:33:40",
+    "indice": 345,
+    "total_lista": 395,
+    "telefone": "71996877362",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:33:52",
+    "indice": 346,
+    "total_lista": 395,
+    "telefone": "77991300932",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:34:04",
+    "indice": 347,
+    "total_lista": 395,
+    "telefone": "77991741835",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:34:16",
+    "indice": 348,
+    "total_lista": 395,
+    "telefone": "74988081579",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:34:28",
+    "indice": 349,
+    "total_lista": 395,
+    "telefone": "75998317680",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:34:40",
+    "indice": 350,
+    "total_lista": 395,
+    "telefone": "77988079098",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:34:52",
+    "indice": 351,
+    "total_lista": 395,
+    "telefone": "71982355713",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:35:04",
+    "indice": 352,
+    "total_lista": 395,
+    "telefone": "71988150714",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:35:16",
+    "indice": 353,
+    "total_lista": 395,
+    "telefone": "75981541503",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:35:28",
+    "indice": 354,
+    "total_lista": 395,
+    "telefone": "73988683717",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:35:40",
+    "indice": 355,
+    "total_lista": 395,
+    "telefone": "74999295524",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:35:52",
+    "indice": 356,
+    "total_lista": 395,
+    "telefone": "77991250858",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:36:04",
+    "indice": 357,
+    "total_lista": 395,
+    "telefone": "71986966533",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:36:16",
+    "indice": 358,
+    "total_lista": 395,
+    "telefone": "71999729180",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:36:28",
+    "indice": 359,
+    "total_lista": 395,
+    "telefone": "71987156542",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:36:40",
+    "indice": 360,
+    "total_lista": 395,
+    "telefone": "71987032406",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:36:52",
+    "indice": 361,
+    "total_lista": 395,
+    "telefone": "71992422528",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:37:04",
+    "indice": 362,
+    "total_lista": 395,
+    "telefone": "75991098398",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:37:16",
+    "indice": 363,
+    "total_lista": 395,
+    "telefone": "71992487816",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:37:28",
+    "indice": 364,
+    "total_lista": 395,
+    "telefone": "73988226020",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:37:40",
+    "indice": 365,
+    "total_lista": 395,
+    "telefone": "74988273706",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:37:52",
+    "indice": 366,
+    "total_lista": 395,
+    "telefone": "71997008489",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:38:04",
+    "indice": 367,
+    "total_lista": 395,
+    "telefone": "71982581787",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:38:16",
+    "indice": 368,
+    "total_lista": 395,
+    "telefone": "75988027242",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:38:28",
+    "indice": 369,
+    "total_lista": 395,
+    "telefone": "71999755418",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:38:40",
+    "indice": 370,
+    "total_lista": 395,
+    "telefone": "74981048858",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:38:52",
+    "indice": 371,
+    "total_lista": 395,
+    "telefone": "71986101208",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:39:04",
+    "indice": 372,
+    "total_lista": 395,
+    "telefone": "73999186432",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:39:16",
+    "indice": 373,
+    "total_lista": 395,
+    "telefone": "75991216133",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:39:28",
+    "indice": 374,
+    "total_lista": 395,
+    "telefone": "75991090888",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:39:41",
+    "indice": 375,
+    "total_lista": 395,
+    "telefone": "71988667673",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:39:53",
+    "indice": 376,
+    "total_lista": 395,
+    "telefone": "73999617718",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:40:05",
+    "indice": 377,
+    "total_lista": 395,
+    "telefone": "71992700610",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:40:17",
+    "indice": 378,
+    "total_lista": 395,
+    "telefone": "71991550868",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:40:29",
+    "indice": 379,
+    "total_lista": 395,
+    "telefone": "75983159923",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:40:41",
+    "indice": 380,
+    "total_lista": 395,
+    "telefone": "75988675212",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:40:53",
+    "indice": 381,
+    "total_lista": 395,
+    "telefone": "73988071218",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:41:05",
+    "indice": 382,
+    "total_lista": 395,
+    "telefone": "75991610274",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:41:17",
+    "indice": 383,
+    "total_lista": 395,
+    "telefone": "74981144186",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:41:29",
+    "indice": 384,
+    "total_lista": 395,
+    "telefone": "77999860499",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:41:41",
+    "indice": 385,
+    "total_lista": 395,
+    "telefone": "71986619121",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:41:53",
+    "indice": 386,
+    "total_lista": 395,
+    "telefone": "71988372647",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:42:05",
+    "indice": 387,
+    "total_lista": 395,
+    "telefone": "77991463535",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:42:17",
+    "indice": 388,
+    "total_lista": 395,
+    "telefone": "77981156354",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:42:29",
+    "indice": 389,
+    "total_lista": 395,
+    "telefone": "87988056530",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:42:41",
+    "indice": 390,
+    "total_lista": 395,
+    "telefone": "75999597225",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:42:53",
+    "indice": 391,
+    "total_lista": 395,
+    "telefone": "71988666064",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:43:05",
+    "indice": 392,
+    "total_lista": 395,
+    "telefone": "75983749439",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:43:17",
+    "indice": 393,
+    "total_lista": 395,
+    "telefone": "71999658473",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:43:29",
+    "indice": 394,
+    "total_lista": 395,
+    "telefone": "86998395987",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 10:43:41",
+    "indice": 395,
+    "total_lista": 395,
+    "telefone": "71997401960",
+    "status": "ERRO: AirMore não conectado",
+    "mensagem": "Alô Servidor! Atualização na margem consignada! \nSaldão de taxas para os Servidores do Gov. BA.\n\nConsulte já! https://wa.me/5582999107571?text=Simule",
+    "delay": 12
+  },
+  {
+    "data": "2026-03-12 21:48:24",
+    "indice": 1,
+    "total_lista": 1,
+    "telefone": "5582996151175",
+    "status": "SUCESSO",
+    "mensagem": "Vamos tomar café da manha?",
+    "delay": 8
+  },
+  {
+    "data": "2026-03-12 21:53:51",
+    "indice": 1,
+    "total_lista": 1,
+    "telefone": "5582996151175",
+    "status": "SUCESSO",
+    "mensagem": "Vamos tomar café da manha?",
+    "delay": 8
+  }
+]

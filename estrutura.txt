@@ -1,0 +1,243 @@
+github-teste-jarvis
+RUN = docker login -u monkastel - (tem um $ na frente se der erro)
+pass prompt = dckr_pat_pq7ko9jmq0xmTO84sw0Qiji0x9M
+
+INÍCIO DE CONTINUIDADE — JARVISDOIS
+
+Antes de qualquer resposta técnica:
+analise primeiro a estrutura atualizada do projeto.
+Se eu não enviar a estrutura atualizada no começo da conversa, peça para eu enviar antes de responder qualquer coisa técnica.
+
+REGRAS FIXAS DE RESPOSTA
+Sempre responder alterações técnicas no formato:
+- Nome Arquivo
+- Onde arquivo
+- Copiar tudo ou Copiar trecho
+
+Sempre que eu enviar um arquivo:
+1. analisar a função dele no projeto
+2. verificar com quais arquivos ele se conecta
+3. validar imports e caminhos com a estrutura atual
+4. corrigir a estrutura quando necessário
+5. avisar claramente quando houver risco de quebra
+
+ARQUITETURA OBRIGATÓRIA
+Jarvis continua sendo o orquestrador central.
+Agentes são executores convocados pelo Jarvis.
+
+Fluxo obrigatório:
+evento -> Jarvis -> decisão -> agente -> ferramenta -> serviço -> evento
+
+Nunca deixar:
+- agente chamar API direto
+- agente acessar banco direto
+- agente mover lead direto
+
+Sempre seguir:
+agent_runtime -> tool -> service
+
+OBJETIVO DO PROJETO
+Construir uma plataforma operacional de automação comercial com:
+- backend FastAPI/Python
+- frontend React/Vite/Tailwind
+- CRM em Firebase
+- WhatsApp via Evolution API
+- SMS via AirMore
+- Jarvis como orquestrador
+- agentes especializados
+- futura camada de IA via Gemini
+
+ESTADO ATUAL DO PROJETO
+- CRM Kanban funcional
+- Firebase como persistência do CRM
+- backend modular por domínio
+- AgentsPage já existe
+- central de agentes backend já existe
+- agent builder schema já existe
+- dispatcher de eventos de agentes já existe
+- Jarvis segue sendo construído primeiro por método e eventos, sem depender de Gemini
+
+ESTRUTURA ATUAL DO PROJETO
+
+C:.
+|   estrutura.txt = arquivo de referência estrutural do projeto | função = registrar a estrutura atual para validação de caminhos e organização
+|   jsconfig.json = configuração de aliases/resolução JS | função = apoiar imports e organização do frontend
+|   package-lock.json = lock de dependências da raiz | função = congelar versões instaladas
+|   package.json = manifesto principal da raiz | função = scripts e dependências gerais
+|
++---backend
+|   |   .env = variáveis de ambiente do backend | função = guardar chaves, URLs e configs do servidor
+|   |   main.py = ponto de entrada do FastAPI | função = carregar ambiente, aplicar CORS, registrar rotas principais
+|   |   requirements.txt = dependências Python do backend | função = instalar bibliotecas do servidor
+|   |
+|   +---data
+|   |       config.json = configuração local auxiliar | função = persistência simples de dados/config
+|   |
+|   +---routes
+|   |   |   evolution_routes.py = camada HTTP da Evolution | função = listar instâncias | consultar status | enviar mensagem
+|   |   |   integration_connections_routes.py = camada HTTP das conexões | função = expor estado e configuração das integrações
+|   |   |   webhook_routes.py = entrada de webhooks externos | função = transformar eventos externos em eventos internos do Jarvis
+|   |   |   agents_routes.py = API da central de agentes | função = listar agentes | criar agente | editar agente | alterar status | executar agente | expor builder schema
+|   |   |   ai_routes.py = rotas auxiliares de IA | função = healthcheck e testes da camada de IA
+|   |   |   crm_routes.py = camada HTTP do CRM para o Jarvis | função = receber evento do CRM | acionar fluxo do Jarvis
+|   |   |   prospeccao_routes.py
+|   |
+|   +---services
+|   |   |   historico_disparos.json = histórico local de disparos | função = armazenar execuções de campanhas
+|   |   |   config_store.py = persistência/configuração local | função = salvar e recuperar configs auxiliares
+|   |   |   relatorios_sms.json = relatórios locais de SMS | função = armazenar métricas simples de SMS
+|   |   |   servidor.py = arquivo auxiliar legado/local | função = revisar depois para decidir permanência ou remoção
+|   |   |   templates_sms.json = base local de templates SMS | função = persistir modelos de mensagem
+|   |   |
+|   |   \---ai
+|   |   |   |   gemini_service.py = camada reservada de IA | função = healthcheck | prompts | futura saída estruturada
+|   |   |
+|   |   \---evolution
+|   |   |   |   evolution_service.py = serviço real da Evolution API | função = montar headers | buscar instâncias | normalizar retorno | consultar status | enviar mensagem
+|   |   |
+|   |   \---jarvis
+|   |   |   |   jarvis_crm_service.py = ponte entre CRM e Jarvis | função = processar evento do CRM | registrar evento | chamar decisão | devolver próxima ação
+|   |   |   |   jarvis_decision_service.py = motor de decisão do Jarvis | função = analisar status do lead | temperatura | tags | override | sugerir próxima ação/agente
+|   |   |   |   jarvis_event_service.py = barramento e histórico interno | função = registrar evento | guardar origem | ator | metadados | rastrear fluxo
+|   |   |
+|   |   \---sms
+|   |   |   |   airmore_service.py = serviço real do AirMore | função = conectar celular | consultar status | enviar SMS
+|   |   |
+|   |   \---agents
+|   |   |   |   agent_runtime_service.py = motor de execução do agente | função = carregar agente | montar contexto | executar tools | registrar eventos | resolver handoff
+|   |   |   |   agent_registry_service.py = catálogo/persistência de agentes | função = cadastrar | listar | buscar | atualizar | alterar status
+|   |   |   |   agent_tools_service.py = caixa de ferramentas dos agentes | função = send_whatsapp | send_sms | add_tag | append_note | move_lead | handoff_agent | read_sheet
+|   |   |   |   agent_context_service.py = montagem de contexto do agente | função = consolidar evento | lead | canal | memória | integrações
+|   |   |   |   agent_handoff_service.py = resolução de handoff | função = avaliar regras e decidir transferência entre agentes
+|   |   |   |   agent_builder_schema_service.py = schema do construtor de agentes | função = definir seções | campos | opções | defaults do formulário
+|   |   |   |   agent_event_dispatcher.py = dispatcher de eventos para agentes | função = localizar agentes ouvintes | disparar runtime | registrar erros/resultados
+|   |   |
+|   |   \---prospeccao
+|   |   |   |   whatsapp_disparo_service.py
+|   |   |
+|   |
++---frontend
+|   |   .env = variáveis do frontend | função = guardar base URL e configs públicas
+|   |   .gitignore = exclusões do git | função = ignorar arquivos locais e build
+|   |   eslint.config.js = configuração de lint | função = padronizar qualidade do código
+|   |   index.html = base HTML do app Vite | função = montar raiz do frontend
+|   |   package-lock.json = lock de dependências do frontend | função = congelar versões instaladas
+|   |   package.json = manifesto do frontend | função = scripts e dependências do app
+|   |   README.md = documentação local do frontend | função = orientar setup/uso
+|   |   vite.config.js = configuração do Vite | função = build e servidor do frontend
+|   |
+|   \---src
+|       |   App.jsx = roteamento principal da aplicação | função = login | dashboard | conexões | CRM | agents page
+|       |   main.jsx = bootstrap do React | função = renderizar a aplicação
+|       |
+|       +---assets
+|       |       react.svg = asset padrão do template | função = imagem estática auxiliar
+|       |
+|       +---components
+|       |   \---auth
+|       |   |       ProtectedRoute.jsx = proteção de rota | função = bloquear acesso sem autenticação
+|       |   |
+|       |   \---crm
+|       |   |       LeadModal.jsx = modal detalhado do lead | função = editar dados pessoais | bancários | tags | observações | arquivos | compliance
+|       |   |
+|       |   \---layout
+|       |           AppLayout.jsx = layout geral autenticado | função = estruturar sidebar + conteúdo + painel lateral
+|       |
+|       +---contexts
+|       |       AuthContext.jsx = contexto de autenticação | função = prover usuário e controle de login/logout
+|       |
+|       +---core
+|       |   \---jarvis
+|       |           eventBus.js = barramento local do frontend | função = emitir/escutar eventos visuais e operacionais
+|       |           eventTypes.js = catálogo de tipos de evento | função = padronizar nomes dos eventos
+|       |           jarvisLogger.js = logger do frontend | função = rastrear eventos e debug visual
+|       |
+|       +---features
+|       |   +---airmore
+|       |   |       AirMoreModal.jsx = modal da conexão AirMore | função = configurar e controlar conexão SMS
+|       |   |       airmoreService.js = ponte local do AirMore | função = chamadas do frontend para SMS
+|       |   |
+|       |   +---docker
+|       |   |       DockerModal.jsx = modal auxiliar do Docker | função = suporte operacional de ambiente
+|       |   |
+|       |   +---evolution
+|       |   |   |   evolutionApi.js = ponte local da Evolution | função = chamadas do frontend para backend/evolution
+|       |   |   |   EvolutionModal.jsx = modal da Evolution | função = configurar instâncias e integração
+|       |   |   |   InstancesPage.jsx = tela de instâncias | função = listar e acompanhar instâncias Evolution
+|       |   |   |
+|       |   |   \---hooks
+|       |   |           useEvolutionInstances.js = hook de instâncias | função = carregar e atualizar instâncias Evolution
+|       |   |
+|       |   \---whatsapp
+|       |           WhatsAppDisparoModal.jsx = modal de disparo WhatsApp | função = montar campanha/disparo com agente/instância/template
+|       |
+|       +---pages
+|       |   +---agents
+|       |   |       AgentsPage.jsx = central visual de agentes | função = criar/editar agentes | definir tipo | tools | listening | handoff | metadados
+|       |   |
+|       |   +---auth
+|       |   |       LoginPage.jsx = tela de login | função = autenticar usuário
+|       |   |
+|       |   +---crm
+|       |   |       CRMPage.jsx = Kanban do CRM | função = exibir colunas | listar leads | mover lead | abrir modal | criar coluna
+|       |   |
+|       |   +---dashboard
+|       |   |   |   DashboardPage.jsx = tela operacional principal | função = visão geral do sistema
+|       |   |   |
+|       |   |   \---layout
+|       |   |           MainSidebar.jsx = menu lateral principal | função = navegar entre dashboard | conexões | CRM | agentes
+|       |   |           ProfilePanel.jsx = painel lateral de perfil | função = exibir usuário e atalhos auxiliares
+|       |   |
+|       |   +---integrations
+|       |   |       ApiConnectionsPage.jsx = página de conexões | função = exibir integrações e configurações
+|       |   |
+|       |   +---prospeccao  
+|       |   |   |   ProspeccaoPage.jsx
+|       |   |
+|       |
+|       +---services
+|       |   |   agents.js = ponte frontend -> backend da central de agentes | função = builder schema | listagem | criação | edição | status | execução | compatibilidade local legada
+|       |   |   evolution.js = ponte frontend -> backend da Evolution | função = listar instâncias | status | envio
+|       |   |   jarvisCrm.js = ponte frontend -> backend Jarvis CRM | função = enviar eventos do CRM ao backend
+|       |   |   prospeccao.js
+|       |   |
+|       |   +---firebase
+|       |   |       apiConnections.js = persistência/config de conexões | função = salvar e ler integrações no Firebase
+|       |   |       auth.js = autenticação Firebase | função = login/logout e estado do usuário
+|       |   |       config.js = configuração Firebase | função = inicializar SDK
+|       |   |       crmFirebase.js = persistência do CRM | função = normalizar lead | salvar/editar lead | colunas | arquivos | compliance
+|       |   |       firestore.js = acesso ao Firestore | função = utilitários/base de banco
+|       |   |
+|       |   +---localBridge
+|       |   |       README.md = documentação do bridge local | função = orientar integração local
+|       |   |
+|       |   \---runtime
+|       |           apiConnectionRuntime.js = runtime de conexões | função = executar lógica local de integração/conexão
+|       |
+|       \---styles
+|       |       global.css = estilos globais | função = base visual da aplicação
+|       |
++---evolution
+|   |   docker-compose.yml
+|   |   .env    
+|
+
+
+PONTOS DE ATENÇÃO
+- Sempre validar imports com a estrutura atual enviada.
+- Não assumir caminhos antigos.
+- O MainSidebar deve conter acesso para a AgentsPage.
+- O frontend deve usar services/agents.js como ponte oficial da Central de Agentes.
+- O Jarvis continua sendo o orquestrador; agentes são executores.
+
+PEDIDO ATUAL
+Preciso continuar a evolução do JarvisDois respeitando a estrutura acima.
+Quero que toda alteração nova:
+1. mantenha Jarvis como orquestrador
+2. mantenha agentes como executores
+3. respeite a separação backend/frontend
+4. preserve compatibilidade com CRM, Evolution e AirMore
+5. use sempre o formato:
+   - Nome Arquivo
+   - Onde arquivo
+   - Copiar tudo ou Copiar trecho

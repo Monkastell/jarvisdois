@@ -1,0 +1,56 @@
+[
+  {
+    "id": "receptivo",
+    "name": "Agente Receptivo",
+    "type": "receptivo",
+    "description": "Entende o cliente, identifica intenção e prepara handoff.",
+    "status": "active",
+    "llm_enabled": false,
+    "allowed_tools": [
+      "send_whatsapp",
+      "add_tag",
+      "append_note",
+      "handoff_agent",
+      "read_sheet"
+    ],
+    "listening": {
+      "whatsapp": true,
+      "sms": false
+    },
+    "handoff_rules": [
+      {
+        "condition": "cliente_interessado",
+        "target_agent": "negociador"
+      }
+    ],
+    "metadata": {
+      "version": 1,
+      "created_by": "system"
+    }
+  },
+  {
+    "id": "negociador",
+    "name": "Agente Negociador",
+    "type": "negociador",
+    "description": "Assume leads qualificados e executa negociação guiada.",
+    "status": "active",
+    "llm_enabled": false,
+    "allowed_tools": [
+      "send_whatsapp",
+      "send_sms",
+      "append_note",
+      "move_lead",
+      "add_tag",
+      "handoff_agent"
+    ],
+    "listening": {
+      "whatsapp": true,
+      "sms": true
+    },
+    "handoff_rules": [],
+    "metadata": {
+      "version": 1,
+      "created_by": "system"
+    }
+  }
+]
