@@ -1,19 +1,14 @@
-import { useState } from "react";
+// pages/auth/LoginPage.jsx
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   loginWithUsername,
   recoverPasswordByUsernameAndEmail,
   requestInitialAccess,
 } from "../../services/firebase/auth";
+import { useAuth } from "../../contexts/AuthContext";
 
-function Input({
-  label,
-  value,
-  onChange,
-  type = "text",
-  placeholder = "",
-  autoComplete = "off",
-}) {
+function Input({ label, value, onChange, type = "text", placeholder = "", autoComplete = "off" }) {
   return (
     <div>
       <label className="mb-2 block text-sm text-zinc-400">{label}</label>
@@ -31,9 +26,10 @@ function Input({
 
 function LoginPage() {
   const navigate = useNavigate();
+  const { user, loading } = useAuth();
 
   const [tab, setTab] = useState("login");
-  const [loading, setLoading] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
@@ -48,6 +44,21 @@ function LoginPage() {
   const [accessEmail, setAccessEmail] = useState("");
   const [accessTelefone, setAccessTelefone] = useState("");
 
+  // Efeito para redirecionar quando o usuário estiver logado
+  useEffect(() => {
+    if (!loading && user) {
+      console.log("LoginPage: Usuário detectado, redirecionando para dashboard");
+      
+      // Tenta navigate primeiro
+      try {
+        navigate("/dashboard", { replace: true });
+      } catch (err) {
+        // Se falhar, usa window.location
+        window.location.href = "/dashboard";
+      }
+    }
+  }, [loading, user, navigate]);
+
   const resetMessages = () => {
     setError("");
     setSuccess("");
@@ -56,39 +67,49 @@ function LoginPage() {
   const handleLogin = async (e) => {
     e.preventDefault();
     resetMessages();
-    setLoading(true);
+    setSubmitting(true);
 
     try {
       const result = await loginWithUsername(username, senha);
 
       if (result.ok) {
-        navigate("/", { replace: true });
+        console.log("LoginPage: Login bem-sucedido, aguardando atualização do auth");
+        
+        // Verificação direta do Firebase Auth
+        import("../../services/firebase/config").then(({ auth }) => {
+          const currentUser = auth.currentUser;
+          console.log("LoginPage: Verificação direta - usuário:", currentUser?.email);
+          
+          if (currentUser) {
+            // Redirecionamento direto como fallback
+            setTimeout(() => {
+              window.location.href = "/dashboard";
+            }, 500);
+          }
+        });
+        
         return;
       }
 
       if (result.reason === "not_found") {
         setError("Usuário não encontrado.");
-        return;
-      }
-
-      if (result.reason === "auth_error") {
+      } else if (result.reason === "auth_error") {
         setError("Senha inválida ou acesso não autorizado.");
-        return;
+      } else {
+        setError("Não foi possível realizar o login.");
       }
-
-      setError("Não foi possível realizar o login.");
     } catch (err) {
       console.error("Erro ao fazer login:", err);
       setError("Erro interno ao realizar login.");
     } finally {
-      setLoading(false);
+      setSubmitting(false);
     }
   };
 
   const handleRecover = async (e) => {
     e.preventDefault();
     resetMessages();
-    setLoading(true);
+    setSubmitting(true);
 
     try {
       const result = await recoverPasswordByUsernameAndEmail(
@@ -103,32 +124,25 @@ function LoginPage() {
 
       if (result.reason === "missing_fields") {
         setError("Preencha usuário e e-mail.");
-        return;
-      }
-
-      if (result.reason === "not_found") {
+      } else if (result.reason === "not_found") {
         setError("Usuário não encontrado.");
-        return;
-      }
-
-      if (result.reason === "email_mismatch") {
+      } else if (result.reason === "email_mismatch") {
         setError("O e-mail informado não corresponde ao usuário.");
-        return;
+      } else {
+        setError("Não foi possível enviar a recuperação de senha.");
       }
-
-      setError("Não foi possível enviar a recuperação de senha.");
     } catch (err) {
       console.error("Erro ao recuperar senha:", err);
       setError("Erro interno ao recuperar senha.");
     } finally {
-      setLoading(false);
+      setSubmitting(false);
     }
   };
 
   const handleRequestAccess = async (e) => {
     e.preventDefault();
     resetMessages();
-    setLoading(true);
+    setSubmitting(true);
 
     try {
       const result = await requestInitialAccess({
@@ -149,107 +163,74 @@ function LoginPage() {
 
       if (result.reason === "missing_fields") {
         setError("Preencha todos os campos para solicitar acesso.");
-        return;
+      } else {
+        setError("Não foi possível enviar a solicitação.");
       }
-
-      setError("Não foi possível enviar a solicitação.");
     } catch (err) {
       console.error("Erro ao solicitar acesso:", err);
       setError("Erro interno ao solicitar acesso.");
     } finally {
-      setLoading(false);
+      setSubmitting(false);
     }
   };
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-950 px-4 py-10 text-zinc-100">
       <div className="grid w-full max-w-6xl overflow-hidden rounded-[32px] border border-zinc-800 bg-zinc-900 shadow-2xl lg:grid-cols-[1.1fr_0.9fr]">
-        <section className="relative hidden min-h-[720px] overflow-hidden border-r border-zinc-800 bg-gradient-to-br from-zinc-950 via-zinc-900 to-cyan-950/30 p-10 lg:flex lg:flex-col lg:justify-between">
+        <section className="hidden bg-gradient-to-br from-cyan-500/20 via-zinc-900 to-zinc-950 p-10 lg:flex lg:flex-col lg:justify-between">
           <div>
-            <p className="text-xs uppercase tracking-[0.28em] text-cyan-400/80">
+            <p className="text-xs uppercase tracking-[0.3em] text-cyan-300/70">
               JarvisDois
             </p>
-            <h1 className="mt-4 max-w-md text-4xl font-semibold leading-tight text-white">
-              Núcleo operacional para CRM, campanhas, agentes e automação.
+            <h1 className="mt-6 text-4xl font-semibold leading-tight text-white">
+              Dashboard operacional
+              <br />
+              da FinComex
             </h1>
-            <p className="mt-5 max-w-lg text-sm leading-6 text-zinc-400">
-              Um painel central para coordenar fluxo de leads, comunicação e
-              inteligência operacional. Sem fumaça, sem holograma fake, só base
-              sólida para crescer.
+            <p className="mt-6 max-w-md text-base text-zinc-300">
+              Centralize CRM, campanhas, agentes e operações em um único núcleo.
             </p>
           </div>
 
-          <div className="grid gap-4">
-            <div className="rounded-3xl border border-zinc-800 bg-zinc-950/70 p-5">
-              <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                Módulos-base
-              </p>
-              <div className="mt-4 grid grid-cols-2 gap-3">
-                {[
-                  "CRM",
-                  "WhatsApp",
-                  "SMS",
-                  "Agentes IA",
-                  "Campanhas",
-                  "Dashboard",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="rounded-2xl border border-zinc-800 bg-zinc-900 px-3 py-3 text-sm text-zinc-300"
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="rounded-3xl border border-zinc-800 bg-zinc-950/70 p-5">
-              <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                Estado atual
-              </p>
-              <p className="mt-3 text-sm text-zinc-400">
-                Login por username + Firebase Auth, dashboard inicial e base
-                pronta para evolução do núcleo.
-              </p>
-            </div>
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-950/70 p-6">
+            <p className="text-sm text-zinc-400">
+              Acesso seguro com autenticação integrada ao Firebase.
+            </p>
           </div>
         </section>
 
-        <section className="p-6 md:p-8 lg:p-10">
+        <section className="p-6 md:p-10">
           <div className="mx-auto w-full max-w-md">
             <div className="mb-8">
-              <p className="text-xs uppercase tracking-[0.25em] text-cyan-400/80">
-                JarvisDois
-              </p>
-              <h2 className="mt-3 text-3xl font-semibold text-white">Acesso</h2>
+              <h2 className="text-3xl font-semibold text-white">Acessar</h2>
               <p className="mt-2 text-sm text-zinc-400">
-                Entre com seu usuário para acessar o núcleo operacional.
+                Entre com seu usuário e senha para abrir o painel.
               </p>
             </div>
 
-            <div className="mb-6 grid grid-cols-3 rounded-2xl border border-zinc-800 bg-zinc-950 p-1">
+            <div className="mb-6 flex rounded-2xl border border-zinc-800 bg-zinc-950 p-1">
               <button
                 type="button"
                 onClick={() => {
-                  setTab("login");
                   resetMessages();
+                  setTab("login");
                 }}
-                className={`rounded-2xl px-3 py-2 text-sm transition ${
+                className={`flex-1 rounded-2xl px-4 py-3 text-sm font-medium transition ${
                   tab === "login"
                     ? "bg-cyan-500/15 text-cyan-300"
                     : "text-zinc-400 hover:text-zinc-200"
                 }`}
               >
-                Login
+                Entrar
               </button>
 
               <button
                 type="button"
                 onClick={() => {
-                  setTab("recover");
                   resetMessages();
+                  setTab("recover");
                 }}
-                className={`rounded-2xl px-3 py-2 text-sm transition ${
+                className={`flex-1 rounded-2xl px-4 py-3 text-sm font-medium transition ${
                   tab === "recover"
                     ? "bg-cyan-500/15 text-cyan-300"
                     : "text-zinc-400 hover:text-zinc-200"
@@ -261,10 +242,10 @@ function LoginPage() {
               <button
                 type="button"
                 onClick={() => {
-                  setTab("request");
                   resetMessages();
+                  setTab("request");
                 }}
-                className={`rounded-2xl px-3 py-2 text-sm transition ${
+                className={`flex-1 rounded-2xl px-4 py-3 text-sm font-medium transition ${
                   tab === "request"
                     ? "bg-cyan-500/15 text-cyan-300"
                     : "text-zinc-400 hover:text-zinc-200"
@@ -307,10 +288,10 @@ function LoginPage() {
 
                 <button
                   type="submit"
-                  disabled={loading}
+                  disabled={submitting}
                   className="w-full rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
                 >
-                  {loading ? "Entrando..." : "Entrar"}
+                  {submitting ? "Entrando..." : "Entrar"}
                 </button>
               </form>
             )}
@@ -335,10 +316,10 @@ function LoginPage() {
 
                 <button
                   type="submit"
-                  disabled={loading}
+                  disabled={submitting}
                   className="w-full rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
                 >
-                  {loading ? "Enviando..." : "Recuperar senha"}
+                  {submitting ? "Enviando..." : "Recuperar senha"}
                 </button>
               </form>
             )}
@@ -377,10 +358,10 @@ function LoginPage() {
 
                 <button
                   type="submit"
-                  disabled={loading}
+                  disabled={submitting}
                   className="w-full rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
                 >
-                  {loading ? "Enviando..." : "Solicitar acesso"}
+                  {submitting ? "Enviando..." : "Solicitar acesso"}
                 </button>
               </form>
             )}

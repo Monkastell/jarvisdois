@@ -1,13 +1,15 @@
+// pages/dashboard/layout/MainSidebar.jsx
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const menuItems = [
-  { id: "dashboard", label: "Dashboard", icon: "◫", path: "/" },
+  { id: "dashboard", label: "Dashboard", icon: "◫", path: "/dashboard" },
   { id: "conexoes-api", label: "Conexões", icon: "◎", path: "/conexoes-api" },
   { id: "crm", label: "CRM", icon: "▦", path: "/crm" },
   { id: "agents", label: "Agentes", icon: "◈", path: "/agents" },
   { id: "prospeccao", label: "Prospecção", icon: "✦", path: "/prospeccao" },
 ];
+
 function MainSidebar() {
   const [expanded, setExpanded] = useState(false);
 
@@ -45,7 +47,6 @@ function MainSidebar() {
               <NavLink
                 key={item.id}
                 to={item.path}
-                end={item.path === "/"}
                 className={({ isActive }) =>
                   `flex w-full items-center gap-3 rounded-2xl border px-3 py-3 text-left transition ${
                     isActive

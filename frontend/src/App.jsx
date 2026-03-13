@@ -1,3 +1,4 @@
+// App.jsx
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import LoginPage from "./pages/auth/LoginPage";
@@ -16,19 +17,22 @@ export default function App() {
       <Route path="/login" element={<LoginPage />} />
 
       <Route
+        path="/"
         element={
           <ProtectedRoute>
             <AppLayout />
           </ProtectedRoute>
         }
       >
-        <Route path="/dashboard" element={<DashboardPage />} />        
-        <Route path="/conexoes-api" element={<ApiConnectionsPage />} />
-        <Route path="/crm" element={<CRMPage />} />
-        <Route path="/agents" element={<AgentsPage />} />
-        <Route path="/prospeccao" element={<ProspeccaoPage />} />
+        <Route index element={<Navigate to="/dashboard" replace />} />
+        <Route path="dashboard" element={<DashboardPage />} />
+        <Route path="conexoes-api" element={<ApiConnectionsPage />} />
+        <Route path="crm" element={<CRMPage />} />
+        <Route path="agents" element={<AgentsPage />} />
+        <Route path="prospeccao" element={<ProspeccaoPage />} />
       </Route>
 
-      <Route path="*" element={<Navigate to="/login" replace />} />    </Routes>
+      <Route path="*" element={<Navigate to="/login" replace />} />
+    </Routes>
   );
 }
