@@ -15,39 +15,45 @@ EVOLUTION_API_KEY = os.getenv("EVOLUTION_API_KEY", "").strip()
 
 
 def _build_headers():
+    """
+    Monta os headers de autenticação para a Evolution API v2.x.
+    O padrão oficial para v2 com AUTHENTICATION_TYPE=apikey é o header 'apiKey'.
+    """
     headers = {
         "Content-Type": "application/json",
     }
-
     if EVOLUTION_API_KEY:
-        headers["apikey"] = EVOLUTION_API_KEY
-
+        # Mudança crucial para v2: usar 'apiKey' em vez de 'globalApikey' ou 'apikey'
+        headers["apiKey"] = EVOLUTION_API_KEY 
     return headers
 
 
 def normalize_instances(raw_instances):
     normalized = []
+    
+    # Garante que estamos lidando com uma lista
+    items = raw_instances if isinstance(raw_instances, list) else []
 
-    for item in raw_instances:
+    for item in items:
+        instance_data = item.get("instance", item) # v2 costuma encapsular em 'instance'
+        
         instance_name = (
-            item.get("name")
-            or item.get("instance")
-            or item.get("instanceName")
-            or item.get("instance_name")
+            instance_data.get("name")
+            or instance_data.get("instanceName")
+            or instance_data.get("instance_name")
             or "Sem nome"
         )
 
         instance_id = (
-            item.get("id")
-            or item.get("instanceId")
-            or item.get("name")
+            instance_data.get("id")
+            or instance_data.get("instanceId")
             or instance_name
         )
 
         status = (
-            item.get("connectionStatus")
-            or item.get("status")
-            or item.get("state")
+            instance_data.get("status")
+            or instance_data.get("connectionStatus")
+            or instance_data.get("state")
             or "unknown"
         )
 
@@ -55,8 +61,8 @@ def normalize_instances(raw_instances):
             "id": str(instance_id),
             "name": instance_name,
             "status": str(status).lower(),
-            "number": item.get("ownerJid") or item.get("number") or "",
-            "profileName": item.get("profileName") or item.get("profile") or "",
+            "number": instance_data.get("ownerJid") or instance_data.get("number") or "",
+            "profileName": instance_data.get("profileName") or "",
             "raw": item,
         })
 
@@ -67,19 +73,32 @@ async def get_all_instances():
     url = f"{EVOLUTION_BASE_URL}/instance/fetchInstances"
 
     async with httpx.AsyncClient(timeout=20.0) as client:
-        response = await client.get(url, headers=_build_headers())
-        response.raise_for_status()
-        data = response.json()
+        try:
+            response = await client.get(url, headers=_build_headers())
+            
+            # Se ainda der 401, tentamos o fallback para 'apikey' minúsculo
+            if response.status_code == 401:
+                alt_headers = _build_headers()
+                alt_headers["apikey"] = EVOLUTION_API_KEY
+                del alt_headers["apiKey"]
+                response = await client.get(url, headers=alt_headers)
 
+            response.raise_for_status()
+            data = response.json()
+        except Exception as e:
+            print(f"Erro ao buscar instâncias Evolution: {e}")
+            return []
+
+    # Na v2, o retorno costuma vir em uma lista direta ou dentro de um objeto
     if isinstance(data, list):
         return normalize_instances(data)
-
+    
     if isinstance(data, dict):
-        if isinstance(data.get("data"), list):
-            return normalize_instances(data["data"])
-        if isinstance(data.get("instances"), list):
-            return normalize_instances(data["instances"])
-
+        # Tenta chaves comuns de retorno da v2
+        for key in ["data", "instances", "instance"]:
+            if isinstance(data.get(key), list):
+                return normalize_instances(data[key])
+                
     return []
 
 
@@ -144,7 +163,4 @@ async def send_text_message(instance_name: str, phone: str, text: str):
 
 
 def send_text_message_sync(instance_name: str, phone: str, text: str):
-    """
-    Wrapper síncrono para uso dentro do runtime/tools atual.
-    """
     return asyncio.run(send_text_message(instance_name=instance_name, phone=phone, text=text))

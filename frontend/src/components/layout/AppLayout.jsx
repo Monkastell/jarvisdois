@@ -1,3 +1,4 @@
+// frontend/src/components/layout/AppLayout.jsx
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -9,6 +10,7 @@ import WhatsAppDisparoModal from "../../features/whatsapp/WhatsAppDisparoModal";
 import DockerModal from "../../features/docker/DockerModal";
 
 import { getEvolutionInstances } from "../../services/evolution";
+import { jarvisBus } from "../../core/jarvis/eventBus";
 
 const pageTitles = {
   "/": "Dashboard",
@@ -18,13 +20,8 @@ const pageTitles = {
   "/prospeccao": "Prospecção",
 };
 
-function OperationalTopbar({
-  onOpenAirMore,
-  onOpenEvolution,
-  onOpenDocker,
-}) {
+function OperationalTopbar({ onOpenAirMore, onOpenEvolution, onOpenDocker }) {
   const location = useLocation();
-
   const currentTitle = pageTitles[location.pathname] || "Dashboard";
 
   const actionButtons = [
@@ -103,8 +100,17 @@ function RightSidebar() {
       const instances = await getEvolutionInstances();
       setEvolutionInstances(Array.isArray(instances) ? instances : []);
       setEvolutionInstancesError("");
+      
+      // Emite evento via Jarvis
+      jarvisBus.emit("evolution.instances.updated", {
+        instances: instances,
+        count: instances.length
+      });
     } catch (error) {
       setEvolutionInstancesError(error.message || "Erro ao carregar instâncias.");
+      jarvisBus.emit("evolution.instances.error", {
+        error: error.message
+      });
     } finally {
       if (showLoading) {
         setLoadingEvolutionInstances(false);
@@ -284,20 +290,10 @@ function AppLayout() {
         </div>
       </div>
 
-      <AirMoreModal
-        open={openAirMore}
-        onClose={() => setOpenAirMore(false)}
-      />
-
-      <WhatsAppDisparoModal
-        open={openEvolution}
-        onClose={() => setOpenEvolution(false)}
-      />
-
-      <DockerModal
-        open={openDocker}
-        onClose={() => setOpenDocker(false)}
-      />
+      {/* Modais - mantidos por compatibilidade mas sem uso principal */}
+      <AirMoreModal open={openAirMore} onClose={() => setOpenAirMore(false)} />
+      <WhatsAppDisparoModal open={openEvolution} onClose={() => setOpenEvolution(false)} />
+      <DockerModal open={openDocker} onClose={() => setOpenDocker(false)} />
     </>
   );
 }

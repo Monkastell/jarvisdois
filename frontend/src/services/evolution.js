@@ -1,4 +1,5 @@
-const API_BASE_URL = "https://jarvisdois.onrender.com";
+// frontend/src/services/evolution.js
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://jarvisdois.onrender.com";
 
 function normalizeInstance(instance) {
   return {
