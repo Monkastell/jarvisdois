@@ -1,5 +1,5 @@
 // frontend/src/services/evolution.js
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://jarvisdois.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://unpoignantly-nectarous-dominic.ngrok-free.dev";
 
 function normalizeInstance(instance) {
   return {
